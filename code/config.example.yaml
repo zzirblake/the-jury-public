@@ -1,0 +1,91 @@
+# Example configuration for reproducing the methods package.
+# Replace every path with locally procured data. Do not commit source data.
+#
+# The reference scripts expect the following local layout under `code/`:
+# - data/raw/usa_acs2024.parquet
+# - data/crosstabs/*.json rebuilt from the provenance schema
+# - data/pew/W158_microdata.csv
+# - data/pew/W158_questions.json
+
+run:
+  stage: B
+  seed: 20260515
+  n: 1000
+  out_dir: out/stage_b/reproduction
+
+ipums:
+  pums_extract_path: data/raw/usa_acs2024.parquet
+  vintage: "ACS 2024 1-year"
+  filters:
+    age_min: 18
+
+raking:
+  axes: [race, age, education, region]
+  weight_cap:
+    min: 0.33
+    max: 3.0
+  ipf_max_iterations: 50
+  ipf_tolerance: 0.01
+
+second_pass_v01:
+  traits:
+    - political_party
+    - political_ideology
+    - religion
+    - religiosity
+    - media_diet_primary
+    - media_diet_slant
+    - household_composition
+
+variance:
+  outlier_rate: 0.07
+  outlier_coarse_cells:
+    party_buckets: ["D", "R", "I"]
+    age_buckets: ["18-34", "35-49", "50-64", "65+"]
+  expansion_temperature_distribution:
+    T0_3: 0.30
+    T0_7: 0.50
+    T1_0: 0.20
+
+expansion:
+  default_model: claude-sonnet-4-6
+  outlier_model: claude-opus-4-5
+  max_tokens_out: 1500
+  cache_static_context: true
+  retries: 5
+
+validation:
+  pew_source:
+    poll_id: W158
+    microdata_path: data/pew/W158_microdata.csv
+    weight_col: weight
+    questions: []
+  validation_cells:
+    top_level:
+      age: { buckets: ["18-29", "30-44", "45-64", "65+"], min_synth_n: 25, min_source_n: 100 }
+      education: { buckets: ["<HS", "HS", "SomeCollege/AA", "BA+"], min_synth_n: 30, min_source_n: 150 }
+      race: { buckets: ["White-NH", "Hispanic", "Black", "Asian/Other"], min_synth_n: 25, min_source_n: 100 }
+      party: { buckets: ["D", "R", "I"], min_synth_n: 50, min_source_n: 200 }
+    interaction:
+      age_x_party:
+        axes: [age, party]
+        min_synth_n: 8
+        min_source_n: 50
+      race_x_education:
+        axes: [race, education]
+        min_synth_n: 8
+        min_source_n: 50
+  bootstrap:
+    iterations: 1000
+    confidence: 0.90
+  thresholds:
+    marginal_error_sigma: 2
+    marginal_fail_pct: 0.40
+    entropy_ratio_point: 0.80
+    entropy_ratio_ci_lower: 0.70
+    entropy_ratio_fail_ci_lower: 0.60
+    minority_recovery_point: 0.60
+    minority_recovery_ci_lower: 0.45
+  coverage_rule:
+    top_level_min_pct: 0.80
+    interaction_min_pct: 0.50

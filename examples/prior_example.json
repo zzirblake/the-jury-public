@@ -1,0 +1,31 @@
+{
+  "trait": "example_trait",
+  "source": "ILLUSTRATIVE_EXAMPLE_ONLY",
+  "provenance": {
+    "source_url": "https://example.org/source",
+    "field_year": "2024",
+    "publication_date": "2025-01-01",
+    "retrieved_at": "2026-05-18",
+    "retrieved_by": "public package example",
+    "population": "Example adults 18+",
+    "sample_size_total": 1000,
+    "weighting_note": "Illustrative only; not a real survey weight.",
+    "table_id": "Example table 1",
+    "question_wording": "Example question wording.",
+    "response_options_source": ["Option A", "Option B"],
+    "response_options_used": ["option_a", "option_b"],
+    "fallback_behavior": "Use age_bucket, then unconditional.",
+    "hand_normalization": [],
+    "minimum_cell_n_in_source": 50,
+    "license_or_citation": "Illustrative example; no real source data.",
+    "known_limitations": ["This file is a schema example, not a real prior."]
+  },
+  "conditioning_axes": ["age_bucket"],
+  "fallback_chain": [["age_bucket"], []],
+  "distributions": {
+    "age_bucket=18-29": {"option_a": 0.60, "option_b": 0.40},
+    "age_bucket=30-44": {"option_a": 0.50, "option_b": 0.50},
+    "": {"option_a": 0.55, "option_b": 0.45}
+  }
+}
+

@@ -1,0 +1,342 @@
+{
+  "per_question": {
+    "Q5_scientists_policy_role": {
+      "pew_pct": {
+        "Usually better at making good policy decisions about scientific issues than other people": 43.07,
+        "Usually worse at making good policy decisions about scientific issues than other people": 10.33,
+        "Neither better nor worse at making good policy decisions about scientific issues than other people": 46.6
+      },
+      "options": [
+        "Usually better at making good policy decisions about scientific issues than other people",
+        "Usually worse at making good policy decisions about scientific issues than other people",
+        "Neither better nor worse at making good policy decisions about scientific issues than other people"
+      ],
+      "per_option_pct": [
+        {
+          "option": "Usually better at making good policy decisions about scientific issues than other people",
+          "baseline": 43.73,
+          "baseline_delta_pp": 0.66,
+          "sonnet_fwd_n200": 43.78,
+          "sonnet_fwd_n200_delta_pp": 0.71,
+          "sonnet_rev_n200": 53.82,
+          "sonnet_rev_n200_delta_pp": 10.75,
+          "opus_fwd_n200": 40.25,
+          "opus_fwd_n200_delta_pp": -2.82,
+          "opus_rev_n200": 39.73,
+          "opus_rev_n200_delta_pp": -3.35,
+          "model_delta_fwd_pp": -3.53,
+          "model_delta_rev_pp": -14.09,
+          "order_delta_sonnet_pp": 10.04,
+          "order_delta_opus_pp": -0.52,
+          "interaction_pp": -10.56
+        },
+        {
+          "option": "Usually worse at making good policy decisions about scientific issues than other people",
+          "baseline": 11.44,
+          "baseline_delta_pp": 1.11,
+          "sonnet_fwd_n200": 11.73,
+          "sonnet_fwd_n200_delta_pp": 1.39,
+          "sonnet_rev_n200": 11.87,
+          "sonnet_rev_n200_delta_pp": 1.54,
+          "opus_fwd_n200": 14.45,
+          "opus_fwd_n200_delta_pp": 4.12,
+          "opus_rev_n200": 18.64,
+          "opus_rev_n200_delta_pp": 8.31,
+          "model_delta_fwd_pp": 2.72,
+          "model_delta_rev_pp": 6.77,
+          "order_delta_sonnet_pp": 0.14,
+          "order_delta_opus_pp": 4.19,
+          "interaction_pp": 4.05
+        },
+        {
+          "option": "Neither better nor worse at making good policy decisions about scientific issues than other people",
+          "baseline": 44.83,
+          "baseline_delta_pp": -1.77,
+          "sonnet_fwd_n200": 44.49,
+          "sonnet_fwd_n200_delta_pp": -2.1,
+          "sonnet_rev_n200": 34.3,
+          "sonnet_rev_n200_delta_pp": -12.29,
+          "opus_fwd_n200": 45.3,
+          "opus_fwd_n200_delta_pp": -1.29,
+          "opus_rev_n200": 41.63,
+          "opus_rev_n200_delta_pp": -4.96,
+          "model_delta_fwd_pp": 0.81,
+          "model_delta_rev_pp": 7.33,
+          "order_delta_sonnet_pp": -10.19,
+          "order_delta_opus_pp": -3.67,
+          "interaction_pp": 6.52
+        }
+      ]
+    },
+    "Q8_covid_updated_vaccine": {
+      "pew_pct": {
+        "Probably get an updated vaccine": 24.63,
+        "Probably not get an updated vaccine": 60.14,
+        "Have already received an updated vaccine": 15.24
+      },
+      "options": [
+        "Probably get an updated vaccine",
+        "Probably not get an updated vaccine",
+        "Have already received an updated vaccine"
+      ],
+      "per_option_pct": [
+        {
+          "option": "Probably get an updated vaccine",
+          "baseline": 25.1,
+          "baseline_delta_pp": 0.47,
+          "sonnet_fwd_n200": 24.86,
+          "sonnet_fwd_n200_delta_pp": 0.23,
+          "sonnet_rev_n200": 33.01,
+          "sonnet_rev_n200_delta_pp": 8.38,
+          "opus_fwd_n200": 29.82,
+          "opus_fwd_n200_delta_pp": 5.19,
+          "opus_rev_n200": 33.8,
+          "opus_rev_n200_delta_pp": 9.17,
+          "model_delta_fwd_pp": 4.96,
+          "model_delta_rev_pp": 0.79,
+          "order_delta_sonnet_pp": 8.15,
+          "order_delta_opus_pp": 3.98,
+          "interaction_pp": -4.17
+        },
+        {
+          "option": "Probably not get an updated vaccine",
+          "baseline": 44.08,
+          "baseline_delta_pp": -16.06,
+          "sonnet_fwd_n200": 45.0,
+          "sonnet_fwd_n200_delta_pp": -15.13,
+          "sonnet_rev_n200": 44.93,
+          "sonnet_rev_n200_delta_pp": -15.21,
+          "opus_fwd_n200": 45.83,
+          "opus_fwd_n200_delta_pp": -14.3,
+          "opus_rev_n200": 43.13,
+          "opus_rev_n200_delta_pp": -17.01,
+          "model_delta_fwd_pp": 0.83,
+          "model_delta_rev_pp": -1.8,
+          "order_delta_sonnet_pp": -0.07,
+          "order_delta_opus_pp": -2.7,
+          "interaction_pp": -2.63
+        },
+        {
+          "option": "Have already received an updated vaccine",
+          "baseline": 30.82,
+          "baseline_delta_pp": 15.59,
+          "sonnet_fwd_n200": 30.14,
+          "sonnet_fwd_n200_delta_pp": 14.9,
+          "sonnet_rev_n200": 22.06,
+          "sonnet_rev_n200_delta_pp": 6.83,
+          "opus_fwd_n200": 24.34,
+          "opus_fwd_n200_delta_pp": 9.11,
+          "opus_rev_n200": 23.07,
+          "opus_rev_n200_delta_pp": 7.83,
+          "model_delta_fwd_pp": -5.8,
+          "model_delta_rev_pp": 1.01,
+          "order_delta_sonnet_pp": -8.08,
+          "order_delta_opus_pp": -1.27,
+          "interaction_pp": 6.81
+        }
+      ]
+    },
+    "Q9_astrology_belief": {
+      "pew_pct": {
+        "Yes, believe in": 27.34,
+        "No, don't believe": 72.66
+      },
+      "options": [
+        "Yes, believe in",
+        "No, don't believe"
+      ],
+      "per_option_pct": [
+        {
+          "option": "Yes, believe in",
+          "baseline": 14.62,
+          "baseline_delta_pp": -12.73,
+          "sonnet_fwd_n200": 15.67,
+          "sonnet_fwd_n200_delta_pp": -11.68,
+          "sonnet_rev_n200": 20.31,
+          "sonnet_rev_n200_delta_pp": -7.04,
+          "opus_fwd_n200": 17.83,
+          "opus_fwd_n200_delta_pp": -9.51,
+          "opus_rev_n200": 20.91,
+          "opus_rev_n200_delta_pp": -6.43,
+          "model_delta_fwd_pp": 2.16,
+          "model_delta_rev_pp": 0.6,
+          "order_delta_sonnet_pp": 4.64,
+          "order_delta_opus_pp": 3.08,
+          "interaction_pp": -1.56
+        },
+        {
+          "option": "No, don't believe",
+          "baseline": 85.38,
+          "baseline_delta_pp": 12.73,
+          "sonnet_fwd_n200": 84.33,
+          "sonnet_fwd_n200_delta_pp": 11.68,
+          "sonnet_rev_n200": 79.69,
+          "sonnet_rev_n200_delta_pp": 7.04,
+          "opus_fwd_n200": 82.17,
+          "opus_fwd_n200_delta_pp": 9.51,
+          "opus_rev_n200": 79.09,
+          "opus_rev_n200_delta_pp": 6.43,
+          "model_delta_fwd_pp": -2.16,
+          "model_delta_rev_pp": -0.6,
+          "order_delta_sonnet_pp": -4.64,
+          "order_delta_opus_pp": -3.08,
+          "interaction_pp": 1.56
+        }
+      ]
+    },
+    "Q11_police_confidence": {
+      "pew_pct": {
+        "A great deal of confidence": 20.61,
+        "A fair amount of confidence": 52.14,
+        "Not too much confidence": 20.57,
+        "No confidence at all": 6.69
+      },
+      "options": [
+        "A great deal of confidence",
+        "A fair amount of confidence",
+        "Not too much confidence",
+        "No confidence at all"
+      ],
+      "per_option_pct": [
+        {
+          "option": "A great deal of confidence",
+          "baseline": 22.85,
+          "baseline_delta_pp": 2.25,
+          "sonnet_fwd_n200": 21.99,
+          "sonnet_fwd_n200_delta_pp": 1.38,
+          "sonnet_rev_n200": 26.18,
+          "sonnet_rev_n200_delta_pp": 5.57,
+          "opus_fwd_n200": 21.13,
+          "opus_fwd_n200_delta_pp": 0.52,
+          "opus_rev_n200": 21.11,
+          "opus_rev_n200_delta_pp": 0.5,
+          "model_delta_fwd_pp": -0.86,
+          "model_delta_rev_pp": -5.07,
+          "order_delta_sonnet_pp": 4.19,
+          "order_delta_opus_pp": -0.02,
+          "interaction_pp": -4.21
+        },
+        {
+          "option": "A fair amount of confidence",
+          "baseline": 41.28,
+          "baseline_delta_pp": -10.86,
+          "sonnet_fwd_n200": 40.36,
+          "sonnet_fwd_n200_delta_pp": -11.77,
+          "sonnet_rev_n200": 46.89,
+          "sonnet_rev_n200_delta_pp": -5.24,
+          "opus_fwd_n200": 42.79,
+          "opus_fwd_n200_delta_pp": -9.35,
+          "opus_rev_n200": 46.92,
+          "opus_rev_n200_delta_pp": -5.21,
+          "model_delta_fwd_pp": 2.43,
+          "model_delta_rev_pp": 0.03,
+          "order_delta_sonnet_pp": 6.53,
+          "order_delta_opus_pp": 4.13,
+          "interaction_pp": -2.4
+        },
+        {
+          "option": "Not too much confidence",
+          "baseline": 26.36,
+          "baseline_delta_pp": 5.79,
+          "sonnet_fwd_n200": 26.99,
+          "sonnet_fwd_n200_delta_pp": 6.42,
+          "sonnet_rev_n200": 20.35,
+          "sonnet_rev_n200_delta_pp": -0.22,
+          "opus_fwd_n200": 27.15,
+          "opus_fwd_n200_delta_pp": 6.58,
+          "opus_rev_n200": 23.96,
+          "opus_rev_n200_delta_pp": 3.39,
+          "model_delta_fwd_pp": 0.16,
+          "model_delta_rev_pp": 3.61,
+          "order_delta_sonnet_pp": -6.64,
+          "order_delta_opus_pp": -3.19,
+          "interaction_pp": 3.45
+        },
+        {
+          "option": "No confidence at all",
+          "baseline": 9.51,
+          "baseline_delta_pp": 2.82,
+          "sonnet_fwd_n200": 10.65,
+          "sonnet_fwd_n200_delta_pp": 3.97,
+          "sonnet_rev_n200": 6.58,
+          "sonnet_rev_n200_delta_pp": -0.1,
+          "opus_fwd_n200": 8.93,
+          "opus_fwd_n200_delta_pp": 2.25,
+          "opus_rev_n200": 8.01,
+          "opus_rev_n200_delta_pp": 1.33,
+          "model_delta_fwd_pp": -1.72,
+          "model_delta_rev_pp": 1.43,
+          "order_delta_sonnet_pp": -4.07,
+          "order_delta_opus_pp": -0.92,
+          "interaction_pp": 3.15
+        }
+      ]
+    }
+  },
+  "headline_per_question": {
+    "Q5_scientists_policy_role": {
+      "max_abs_error_per_arm": {
+        "baseline": 1.77,
+        "sonnet_fwd_n200": 2.1,
+        "sonnet_rev_n200": 12.29,
+        "opus_fwd_n200": 4.12,
+        "opus_rev_n200": 8.31
+      },
+      "max_abs_contrast_pp": {
+        "model_delta_fwd_pp": 3.53,
+        "model_delta_rev_pp": 14.09,
+        "order_delta_sonnet_pp": 10.19,
+        "order_delta_opus_pp": 4.19,
+        "interaction_pp": 10.56
+      }
+    },
+    "Q8_covid_updated_vaccine": {
+      "max_abs_error_per_arm": {
+        "baseline": 16.06,
+        "sonnet_fwd_n200": 15.13,
+        "sonnet_rev_n200": 15.21,
+        "opus_fwd_n200": 14.3,
+        "opus_rev_n200": 17.01
+      },
+      "max_abs_contrast_pp": {
+        "model_delta_fwd_pp": 5.8,
+        "model_delta_rev_pp": 1.8,
+        "order_delta_sonnet_pp": 8.15,
+        "order_delta_opus_pp": 3.98,
+        "interaction_pp": 6.81
+      }
+    },
+    "Q9_astrology_belief": {
+      "max_abs_error_per_arm": {
+        "baseline": 12.73,
+        "sonnet_fwd_n200": 11.68,
+        "sonnet_rev_n200": 7.04,
+        "opus_fwd_n200": 9.51,
+        "opus_rev_n200": 6.43
+      },
+      "max_abs_contrast_pp": {
+        "model_delta_fwd_pp": 2.16,
+        "model_delta_rev_pp": 0.6,
+        "order_delta_sonnet_pp": 4.64,
+        "order_delta_opus_pp": 3.08,
+        "interaction_pp": 1.56
+      }
+    },
+    "Q11_police_confidence": {
+      "max_abs_error_per_arm": {
+        "baseline": 10.86,
+        "sonnet_fwd_n200": 11.77,
+        "sonnet_rev_n200": 5.57,
+        "opus_fwd_n200": 9.35,
+        "opus_rev_n200": 5.21
+      },
+      "max_abs_contrast_pp": {
+        "model_delta_fwd_pp": 2.43,
+        "model_delta_rev_pp": 5.07,
+        "order_delta_sonnet_pp": 6.64,
+        "order_delta_opus_pp": 4.13,
+        "interaction_pp": 4.21
+      }
+    }
+  }
+}

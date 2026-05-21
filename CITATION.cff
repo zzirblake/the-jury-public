@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this methods package, please cite it as below."
+title: "The Jury Methods Package: Synthetic Survey Respondents on Pew ATP Wave 158"
+type: software
+version: "1.0.0"
+date-released: "2026-05-21"
+url: "https://corman.io/writing/the-jury/"
+repository-code: "https://github.com/zzirblake/the-jury-public"
+authors:
+  - family-names: "Corman"
+    given-names: "Blake"
+    orcid: "https://orcid.org/0009-0007-7656-0695"
+abstract: "A public-safe methods package for a 1,000-juror synthetic respondent panel benchmarked against Pew American Trends Panel Wave 158. The artifact shows that probability-vector polling substantially mitigates within-cell variance compression on 10 of 11 questions while overall validation still fails through topic-specific marginal error."
+keywords:
+  - synthetic respondents
+  - survey methodology
+  - large language models
+  - public opinion
+  - probability-vector polling
+  - distributional alignment
+license:
+  - MIT
+  - CC-BY-4.0

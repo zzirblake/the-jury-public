@@ -1,0 +1,166 @@
+V1 / V2 Canary Raw Output (n=100, Pew W158, 2026-05-16)
+=======================================================
+
+This file contains the verbatim tool outputs from the two direct-choice
+polling canaries (V1 baseline and V2 prompt-patched) that were run on
+2026-05-16, prior to the V3 probability-vector primitive.
+
+The on-disk synth_responses parquets for V1 and V2 in
+build/out/stage_b/canary_W158_n100_20260516/ and
+build/out/stage_b/canary_W158_n100_direct_20260516_v2/ are byte-identical
+(sha256 verified). The original V1 parquets were overwritten before this
+project went under git tracking (initial commit dbba646, 2026-05-17). The
+text outputs preserved below are the authoritative record of V1 and V2
+topline + per-question entropy values; the lab-notebook narrative at
+docs/v1-v2-canary-provenance.md is the contemporaneous transcription.
+
+Forensic chain of custody: source-of-truth tool output was captured in
+the project's local Claude Code session JSONL. Lab notebook (subsequently
+sanitized into docs/sanitized-chronology.md and the provenance document)
+transcribed the values from that tool output the same day. The forensic
+addendum at docs/v1-v2-canary-provenance.md documents the sha256 identity
+check confirming the disk-V1 directory contains V2-era data.
+
+==================================================================
+V1 BASELINE — direct-choice polling, naive prompt (no anti-center,
+no trait block, no field-date), captured 2026-05-16
+==================================================================
+
+=== Topline accuracy: synth (n=100) vs Pew (n=9,593) — weighted ===
+
+Q1_climate_personal_impact:  (n_synth=100, n_source=9,564)
+  X  A great deal                                        synth= 10.3%  pew= 26.2%  Δ=-15.9pp
+  X  Some                                                synth= 53.8%  pew= 37.9%  Δ=+15.9pp
+  X  Not too much                                        synth= 35.9%  pew= 21.0%  Δ=+14.9pp
+  X  Not at all                                          synth=  0.0%  pew= 15.0%  Δ=-15.0pp
+
+Q2_climate_human_cause:  (n_synth=100, n_source=9,479)
+  ✓  A great deal                                        synth= 41.1%  pew= 45.4%  Δ= -4.3pp
+  X  Some                                                synth= 49.8%  pew= 29.7%  Δ=+20.1pp
+  !  Not too much                                        synth=  9.1%  pew= 17.1%  Δ= -8.0pp
+  !  Not at all                                          synth=  0.0%  pew=  7.7%  Δ= -7.7pp
+
+Q3_climate_policy_economy:  (n_synth=100, n_source=9,439)
+  !  Help the U.S. economy                               synth= 41.2%  pew= 34.1%  Δ= +7.1pp
+  X  Hurt the U.S. economy                               synth= 52.3%  pew= 34.9%  Δ=+17.4pp
+  X  Make no difference for the U.S. economy             synth=  6.5%  pew= 31.0%  Δ=-24.5pp
+
+Q4_scientist_confidence:  (n_synth=100, n_source=4,800)
+  X  A great deal of confidence                          synth=  1.2%  pew= 25.8%  Δ=-24.6pp
+  X  A fair amount of confidence                         synth= 83.7%  pew= 50.8%  Δ=+32.9pp
+  ✓  Not too much confidence                             synth= 15.1%  pew= 19.5%  Δ= -4.4pp
+  ✓  No confidence at all                                synth=  0.0%  pew=  3.9%  Δ= -3.9pp
+
+Q5_scientists_policy_role:  (n_synth=100, n_source=9,517)
+  X  Usually better at making good policy decisions abo  synth= 22.3%  pew= 43.1%  Δ=-20.8pp
+  X  Usually worse at making good policy decisions abou  synth=  0.0%  pew= 10.3%  Δ=-10.3pp
+  X  Neither better nor worse at making good policy dec  synth= 77.7%  pew= 46.6%  Δ=+31.1pp
+
+Q6_covid_restrictions_retro:  (n_synth=100, n_source=9,569)
+  ✓  More restrictions                                   synth= 15.0%  pew= 18.0%  Δ= -3.0pp
+  X  Fewer restrictions                                  synth= 56.5%  pew= 38.0%  Δ=+18.5pp
+  X  The restrictions were about right                   synth= 28.4%  pew= 44.0%  Δ=-15.6pp
+
+Q7_covid_school_closures:  (n_synth=100, n_source=9,576)
+  X  Too long                                            synth= 79.0%  pew= 35.0%  Δ=+44.0pp
+  ✓  Not long enough                                     synth= 13.4%  pew=  9.0%  Δ= +4.4pp
+  X  About the right amount of time                      synth=  3.5%  pew= 35.7%  Δ=-32.2pp
+  ✓  K-12 public schools in my area were never closed    synth=  0.0%  pew=  2.7%  Δ= -2.7pp
+  X  Not sure                                            synth=  4.1%  pew= 17.5%  Δ=-13.4pp
+
+Q8_covid_updated_vaccine:  (n_synth=100, n_source=9,528)
+  X  Probably get an updated vaccine                     synth= 56.2%  pew= 24.6%  Δ=+31.6pp
+  X  Probably not get an updated vaccine                 synth= 39.2%  pew= 60.1%  Δ=-20.9pp
+  X  Have already received an updated vaccine            synth=  4.6%  pew= 15.2%  Δ=-10.6pp
+
+Q9_astrology_belief:  (n_synth=100, n_source=9,530)
+  X  Yes, believe in                                     synth=  1.3%  pew= 27.3%  Δ=-26.0pp
+  X  No, don't believe                                   synth= 98.7%  pew= 72.7%  Δ=+26.0pp
+
+Q10_astrology_consult_freq:  (n_synth=100, n_source=9,567)
+  ✓  Daily                                               synth=  0.0%  pew=  1.5%  Δ= -1.5pp
+  ✓  At least weekly                                     synth=  0.0%  pew=  3.4%  Δ= -3.4pp
+  !  Once or twice a month                               synth=  0.4%  pew=  7.3%  Δ= -6.9pp
+  !  Once or twice a year                                synth= 26.1%  pew= 16.2%  Δ= +9.9pp
+  ✓  Never                                               synth= 73.4%  pew= 71.6%  Δ= +1.8pp
+
+Q11_police_confidence:  (n_synth=100, n_source=9,581)
+  X  A great deal of confidence                          synth=  4.0%  pew= 20.6%  Δ=-16.6pp
+  !  A fair amount of confidence                         synth= 61.5%  pew= 52.1%  Δ= +9.4pp
+  X  Not too much confidence                             synth= 34.5%  pew= 20.6%  Δ=+13.9pp
+  !  No confidence at all                                synth=  0.0%  pew=  6.7%  Δ= -6.7pp
+==================================================================
+V2 PROMPT-PATCHED — direct-choice polling with anti-center system
+prompt + structured trait block + field-date framing + exact-option
+validation, captured 2026-05-16
+==================================================================
+
+=== V2 polling protocol vs BASELINE — per-question topline + entropy median ===
+
+Q                              option                                               baseline       v2      pew   Δ vs pew
+----------------------------------------------------------------------------------------------------------------------------------
+Q1_climate_personal_impact     A great deal                                            10.3%    20.9%    26.2%      -5.3pp !
+                               Some                                                    53.8%    32.2%    37.9%      -5.7pp !
+                               Not too much                                            35.9%    46.9%    21.0%     +25.9pp X
+                               Not at all                                               0.0%     0.0%    15.0%     -15.0pp X
+
+Q2_climate_human_cause         A great deal                                            41.1%    44.1%    45.4%      -1.3pp ✓
+                               Some                                                    49.8%    29.7%    29.7%      +0.0pp ✓
+                               Not too much                                             9.1%    26.2%    17.1%      +9.1pp !
+                               Not at all                                               0.0%     0.0%     7.7%      -7.7pp !
+
+Q3_climate_policy_economy      Help the U.S. economy                                   41.2%    46.5%    34.1%     +12.4pp X
+                               Hurt the U.S. economy                                   52.3%    53.5%    34.9%     +18.6pp X
+                               Make no difference for the U.S. economy                  6.5%     0.0%    31.0%     -31.0pp X
+
+Q4_scientist_confidence        A great deal of confidence                               1.2%     3.6%    25.8%     -22.2pp X
+                               A fair amount of confidence                             83.7%    65.4%    50.8%     +14.6pp X
+                               Not too much confidence                                 15.1%    31.1%    19.5%     +11.6pp X
+                               No confidence at all                                     0.0%     0.0%     3.9%      -3.9pp ✓
+
+Q5_scientists_policy_role      Usually better at making good policy decisions a        22.3%    37.0%    43.1%      -6.1pp !
+                               Usually worse at making good policy decisions ab         0.0%     4.2%    10.3%      -6.1pp !
+                               Neither better nor worse at making good policy d        77.7%    58.8%    46.6%     +12.2pp X
+
+Q6_covid_restrictions_retro    More restrictions                                       15.0%    11.3%    18.0%      -6.7pp !
+                               Fewer restrictions                                      56.5%    63.8%    38.0%     +25.8pp X
+                               The restrictions were about right                       28.4%    24.9%    44.0%     -19.1pp X
+
+Q7_covid_school_closures       Too long                                                79.0%    79.5%    35.0%     +44.5pp X
+                               Not long enough                                         13.4%     3.7%     9.0%      -5.3pp !
+                               About the right amount of time                           3.5%    16.8%    35.7%     -18.9pp X
+                               K-12 public schools in my area were never closed         0.0%     0.0%     2.7%      -2.7pp ✓
+                               Not sure                                                 4.1%     0.0%    17.5%     -17.5pp X
+
+Q8_covid_updated_vaccine       Probably get an updated vaccine                         56.2%    30.3%    24.6%      +5.7pp !
+                               Probably not get an updated vaccine                     39.2%    61.8%    60.1%      +1.7pp ✓
+                               Have already received an updated vaccine                 4.6%     7.8%    15.2%      -7.4pp !
+
+Q9_astrology_belief            Yes, believe in                                          1.3%     5.4%    27.3%     -21.9pp X
+                               No, don't believe                                       98.7%    94.6%    72.7%     +21.9pp X
+
+Q10_astrology_consult_freq     Daily                                                    0.0%     0.0%     1.5%      -1.5pp ✓
+                               At least weekly                                          0.0%     0.0%     3.4%      -3.4pp ✓
+                               Once or twice a month                                    0.4%     4.9%     7.3%      -2.4pp ✓
+                               Once or twice a year                                    26.1%    10.2%    16.2%      -6.0pp !
+                               Never                                                   73.4%    84.9%    71.6%     +13.3pp X
+
+Q11_police_confidence          A great deal of confidence                               4.0%    25.9%    20.6%      +5.3pp !
+                               A fair amount of confidence                             61.5%    42.7%    52.1%      -9.4pp !
+                               Not too much confidence                                 34.5%    31.4%    20.6%     +10.8pp X
+                               No confidence at all                                     0.0%     0.0%     6.7%      -6.7pp !
+
+
+Q                                     baseline         v2      delta
+----------------------------------------------------------------------
+Q1_climate_personal_impact               0.62      0.67     +0.05 ≈
+Q2_climate_human_cause                   0.65      0.69     +0.04 ≈
+Q3_climate_policy_economy                0.58      0.42     -0.16 ↓
+Q4_scientist_confidence                  0.35      0.56     +0.21 ↑
+Q5_scientists_policy_role                0.52      0.64     +0.12 ↑
+Q6_covid_restrictions_retro              0.77      0.71     -0.06 ↓
+Q7_covid_school_closures                 0.42      0.38     -0.04 ≈
+Q8_covid_updated_vaccine                 0.75      0.66     -0.09 ↓
+Q9_astrology_belief                      0.11      0.28     +0.17 ↑
+Q10_astrology_consult_freq               0.51      0.42     -0.09 ↓
+Q11_police_confidence                    0.56      0.77     +0.21 ↑

@@ -1,0 +1,4422 @@
+{
+  "per_question": {
+    "Q1_climate_personal_impact": {
+      "options": [
+        "A great deal",
+        "Some",
+        "Not too much",
+        "Not at all"
+      ],
+      "topline_per_option": [
+        {
+          "option": "A great deal",
+          "pew": 0.2616495479952028,
+          "synth_expected": 0.1930548194460191,
+          "synth_sampled": 0.2127999289933008,
+          "expected_minus_pew_pp": -6.859472854918369,
+          "sampled_minus_pew_pp": -4.8849619001901985,
+          "sampling_noise_pp": 1.9745109547281703
+        },
+        {
+          "option": "Some",
+          "pew": 0.3789125080010838,
+          "synth_expected": 0.36126708314325023,
+          "synth_sampled": 0.3785576570499081,
+          "expected_minus_pew_pp": -1.7645424857833547,
+          "sampled_minus_pew_pp": -0.03548509511756559,
+          "sampling_noise_pp": 1.7290573906657891
+        },
+        {
+          "option": "Not too much",
+          "pew": 0.20981166113399285,
+          "synth_expected": 0.2844712679939654,
+          "synth_sampled": 0.25787725836603637,
+          "expected_minus_pew_pp": 7.465960685997253,
+          "sampled_minus_pew_pp": 4.8065597232043515,
+          "sampling_noise_pp": -2.6594009627929016
+        },
+        {
+          "option": "Not at all",
+          "pew": 0.1496262828697204,
+          "synth_expected": 0.1612068294167658,
+          "synth_sampled": 0.1507651555907548,
+          "expected_minus_pew_pp": 1.1580546547045407,
+          "sampled_minus_pew_pp": 0.11388727210343841,
+          "sampling_noise_pp": -1.0441673826011022
+        }
+      ],
+      "topline_max_abs_expected_pp": 7.465960685997253,
+      "topline_max_abs_sampled_pp": 4.8849619001901985,
+      "topline_sampling_noise_max_pp": 2.6594009627929016,
+      "validation_cell_breakdown": {
+        "age": [
+          {
+            "cell": "age=18-29",
+            "n_synth": 214,
+            "n_pew": 935,
+            "max_abs_expected_pp": 10.01,
+            "max_abs_sampled_pp": 10.92,
+            "sampling_noise_share": 0.92
+          },
+          {
+            "cell": "age=30-44",
+            "n_synth": 277,
+            "n_pew": 3063,
+            "max_abs_expected_pp": 7.28,
+            "max_abs_sampled_pp": 5.48,
+            "sampling_noise_share": -1.8
+          },
+          {
+            "cell": "age=45-64",
+            "n_synth": 296,
+            "n_pew": 2591,
+            "max_abs_expected_pp": 5.78,
+            "max_abs_sampled_pp": 5.68,
+            "sampling_noise_share": -0.1
+          },
+          {
+            "cell": "age=65+",
+            "n_synth": 213,
+            "n_pew": 2937,
+            "max_abs_expected_pp": 7.69,
+            "max_abs_sampled_pp": 6.61,
+            "sampling_noise_share": -1.09
+          }
+        ],
+        "race": [
+          {
+            "cell": "race=Asian/Other",
+            "n_synth": 113,
+            "n_pew": 900,
+            "max_abs_expected_pp": 5.89,
+            "max_abs_sampled_pp": 4.67,
+            "sampling_noise_share": -1.22
+          },
+          {
+            "cell": "race=Black",
+            "n_synth": 108,
+            "n_pew": 928,
+            "max_abs_expected_pp": 8.97,
+            "max_abs_sampled_pp": 5.34,
+            "sampling_noise_share": -3.63
+          },
+          {
+            "cell": "race=Hispanic",
+            "n_synth": 187,
+            "n_pew": 1049,
+            "max_abs_expected_pp": 12.43,
+            "max_abs_sampled_pp": 11.58,
+            "sampling_noise_share": -0.84
+          },
+          {
+            "cell": "race=White-NH",
+            "n_synth": 592,
+            "n_pew": 6586,
+            "max_abs_expected_pp": 7.02,
+            "max_abs_sampled_pp": 4.67,
+            "sampling_noise_share": -2.36
+          }
+        ],
+        "education": [
+          {
+            "cell": "education=BA+",
+            "n_synth": 304,
+            "n_pew": 4647,
+            "max_abs_expected_pp": 7.42,
+            "max_abs_sampled_pp": 8.91,
+            "sampling_noise_share": 1.5
+          },
+          {
+            "cell": "education=HS",
+            "n_synth": 379,
+            "n_pew": 2017,
+            "max_abs_expected_pp": 7.34,
+            "max_abs_sampled_pp": 6.62,
+            "sampling_noise_share": -0.72
+          },
+          {
+            "cell": "education=SomeCollege/AA",
+            "n_synth": 225,
+            "n_pew": 2881,
+            "max_abs_expected_pp": 7.52,
+            "max_abs_sampled_pp": 5.38,
+            "sampling_noise_share": -2.14
+          }
+        ],
+        "party": [
+          {
+            "cell": "party=D",
+            "n_synth": 490,
+            "n_pew": 4943,
+            "max_abs_expected_pp": 11.39,
+            "max_abs_sampled_pp": 7.43,
+            "sampling_noise_share": -3.96
+          },
+          {
+            "cell": "party=I",
+            "n_synth": 67,
+            "n_pew": 197,
+            "max_abs_expected_pp": 4.36,
+            "max_abs_sampled_pp": 4.06,
+            "sampling_noise_share": -0.31
+          },
+          {
+            "cell": "party=R",
+            "n_synth": 443,
+            "n_pew": 4424,
+            "max_abs_expected_pp": 8.65,
+            "max_abs_sampled_pp": 6.22,
+            "sampling_noise_share": -2.42
+          }
+        ]
+      },
+      "worst_expected_cells_top5": [
+        {
+          "axis": "race",
+          "cell": "race=Hispanic",
+          "n_synth": 187,
+          "n_pew": 1049,
+          "max_abs_expected_pp": 12.43,
+          "max_abs_sampled_pp": 11.58,
+          "sampling_noise_share": -0.84
+        },
+        {
+          "axis": "party",
+          "cell": "party=D",
+          "n_synth": 490,
+          "n_pew": 4943,
+          "max_abs_expected_pp": 11.39,
+          "max_abs_sampled_pp": 7.43,
+          "sampling_noise_share": -3.96
+        },
+        {
+          "axis": "age",
+          "cell": "age=18-29",
+          "n_synth": 214,
+          "n_pew": 935,
+          "max_abs_expected_pp": 10.01,
+          "max_abs_sampled_pp": 10.92,
+          "sampling_noise_share": 0.92
+        },
+        {
+          "axis": "race",
+          "cell": "race=Black",
+          "n_synth": 108,
+          "n_pew": 928,
+          "max_abs_expected_pp": 8.97,
+          "max_abs_sampled_pp": 5.34,
+          "sampling_noise_share": -3.63
+        },
+        {
+          "axis": "party",
+          "cell": "party=R",
+          "n_synth": 443,
+          "n_pew": 4424,
+          "max_abs_expected_pp": 8.65,
+          "max_abs_sampled_pp": 6.22,
+          "sampling_noise_share": -2.42
+        }
+      ]
+    },
+    "Q2_climate_human_cause": {
+      "options": [
+        "A great deal",
+        "Some",
+        "Not too much",
+        "Not at all"
+      ],
+      "topline_per_option": [
+        {
+          "option": "A great deal",
+          "pew": 0.45431602251831205,
+          "synth_expected": 0.4226274528323672,
+          "synth_sampled": 0.4314728287251498,
+          "expected_minus_pew_pp": -3.1688569685944854,
+          "sampled_minus_pew_pp": -2.284319379316224,
+          "sampling_noise_pp": 0.8845375892782614
+        },
+        {
+          "option": "Some",
+          "pew": 0.2971157774472472,
+          "synth_expected": 0.2870219000058115,
+          "synth_sampled": 0.2854958697968043,
+          "expected_minus_pew_pp": -1.0093877441435695,
+          "sampled_minus_pew_pp": -1.1619907650442907,
+          "sampling_noise_pp": -0.1526030209007212
+        },
+        {
+          "option": "Not too much",
+          "pew": 0.1714852484741756,
+          "synth_expected": 0.1879060196211199,
+          "synth_sampled": 0.17687640198085705,
+          "expected_minus_pew_pp": 1.6420771146944317,
+          "sampled_minus_pew_pp": 0.5391153506681456,
+          "sampling_noise_pp": -1.1029617640262863
+        },
+        {
+          "option": "Not at all",
+          "pew": 0.07708295156026516,
+          "synth_expected": 0.10244462754070226,
+          "synth_sampled": 0.1061548994971889,
+          "expected_minus_pew_pp": 2.5361675980437095,
+          "sampled_minus_pew_pp": 2.907194793692373,
+          "sampling_noise_pp": 0.3710271956486641
+        }
+      ],
+      "topline_max_abs_expected_pp": 3.1688569685944854,
+      "topline_max_abs_sampled_pp": 2.907194793692373,
+      "topline_sampling_noise_max_pp": 1.1029617640262863,
+      "validation_cell_breakdown": {
+        "age": [
+          {
+            "cell": "age=18-29",
+            "n_synth": 214,
+            "n_pew": 933,
+            "max_abs_expected_pp": 17.67,
+            "max_abs_sampled_pp": 17.8,
+            "sampling_noise_share": 0.12
+          },
+          {
+            "cell": "age=30-44",
+            "n_synth": 277,
+            "n_pew": 3052,
+            "max_abs_expected_pp": 2.48,
+            "max_abs_sampled_pp": 2.38,
+            "sampling_noise_share": -0.1
+          },
+          {
+            "cell": "age=45-64",
+            "n_synth": 296,
+            "n_pew": 2560,
+            "max_abs_expected_pp": 5.61,
+            "max_abs_sampled_pp": 7.43,
+            "sampling_noise_share": 1.82
+          },
+          {
+            "cell": "age=65+",
+            "n_synth": 213,
+            "n_pew": 2896,
+            "max_abs_expected_pp": 3.93,
+            "max_abs_sampled_pp": 7.32,
+            "sampling_noise_share": 3.38
+          }
+        ],
+        "race": [
+          {
+            "cell": "race=Asian/Other",
+            "n_synth": 113,
+            "n_pew": 895,
+            "max_abs_expected_pp": 3.08,
+            "max_abs_sampled_pp": 5.45,
+            "sampling_noise_share": 2.37
+          },
+          {
+            "cell": "race=Black",
+            "n_synth": 108,
+            "n_pew": 910,
+            "max_abs_expected_pp": 8.75,
+            "max_abs_sampled_pp": 5.98,
+            "sampling_noise_share": -2.77
+          },
+          {
+            "cell": "race=Hispanic",
+            "n_synth": 187,
+            "n_pew": 1042,
+            "max_abs_expected_pp": 9.38,
+            "max_abs_sampled_pp": 8.55,
+            "sampling_noise_share": -0.82
+          },
+          {
+            "cell": "race=White-NH",
+            "n_synth": 592,
+            "n_pew": 6532,
+            "max_abs_expected_pp": 4.26,
+            "max_abs_sampled_pp": 2.65,
+            "sampling_noise_share": -1.6
+          }
+        ],
+        "education": [
+          {
+            "cell": "education=BA+",
+            "n_synth": 304,
+            "n_pew": 4615,
+            "max_abs_expected_pp": 5.22,
+            "max_abs_sampled_pp": 4.01,
+            "sampling_noise_share": -1.2
+          },
+          {
+            "cell": "education=HS",
+            "n_synth": 379,
+            "n_pew": 1997,
+            "max_abs_expected_pp": 3.88,
+            "max_abs_sampled_pp": 6.14,
+            "sampling_noise_share": 2.26
+          },
+          {
+            "cell": "education=SomeCollege/AA",
+            "n_synth": 225,
+            "n_pew": 2849,
+            "max_abs_expected_pp": 3.74,
+            "max_abs_sampled_pp": 4.05,
+            "sampling_noise_share": 0.31
+          }
+        ],
+        "party": [
+          {
+            "cell": "party=D",
+            "n_synth": 490,
+            "n_pew": 4901,
+            "max_abs_expected_pp": 4.22,
+            "max_abs_sampled_pp": 4.25,
+            "sampling_noise_share": 0.03
+          },
+          {
+            "cell": "party=I",
+            "n_synth": 67,
+            "n_pew": 195,
+            "max_abs_expected_pp": 10.04,
+            "max_abs_sampled_pp": 9.45,
+            "sampling_noise_share": -0.59
+          },
+          {
+            "cell": "party=R",
+            "n_synth": 443,
+            "n_pew": 4383,
+            "max_abs_expected_pp": 5.55,
+            "max_abs_sampled_pp": 5.83,
+            "sampling_noise_share": 0.27
+          }
+        ]
+      },
+      "worst_expected_cells_top5": [
+        {
+          "axis": "age",
+          "cell": "age=18-29",
+          "n_synth": 214,
+          "n_pew": 933,
+          "max_abs_expected_pp": 17.67,
+          "max_abs_sampled_pp": 17.8,
+          "sampling_noise_share": 0.12
+        },
+        {
+          "axis": "party",
+          "cell": "party=I",
+          "n_synth": 67,
+          "n_pew": 195,
+          "max_abs_expected_pp": 10.04,
+          "max_abs_sampled_pp": 9.45,
+          "sampling_noise_share": -0.59
+        },
+        {
+          "axis": "race",
+          "cell": "race=Hispanic",
+          "n_synth": 187,
+          "n_pew": 1042,
+          "max_abs_expected_pp": 9.38,
+          "max_abs_sampled_pp": 8.55,
+          "sampling_noise_share": -0.82
+        },
+        {
+          "axis": "race",
+          "cell": "race=Black",
+          "n_synth": 108,
+          "n_pew": 910,
+          "max_abs_expected_pp": 8.75,
+          "max_abs_sampled_pp": 5.98,
+          "sampling_noise_share": -2.77
+        },
+        {
+          "axis": "age",
+          "cell": "age=45-64",
+          "n_synth": 296,
+          "n_pew": 2560,
+          "max_abs_expected_pp": 5.61,
+          "max_abs_sampled_pp": 7.43,
+          "sampling_noise_share": 1.82
+        }
+      ]
+    },
+    "Q3_climate_policy_economy": {
+      "options": [
+        "Help the U.S. economy",
+        "Hurt the U.S. economy",
+        "Make no difference for the U.S. economy"
+      ],
+      "topline_per_option": [
+        {
+          "option": "Help the U.S. economy",
+          "pew": 0.34115615040421254,
+          "synth_expected": 0.35219960195981104,
+          "synth_sampled": 0.35710993177763023,
+          "expected_minus_pew_pp": 1.1043451555598494,
+          "sampled_minus_pew_pp": 1.5953781373417686,
+          "sampling_noise_pp": 0.49103298178191923
+        },
+        {
+          "option": "Hurt the U.S. economy",
+          "pew": 0.3492086971869248,
+          "synth_expected": 0.3999202999730416,
+          "synth_sampled": 0.42661502532965273,
+          "expected_minus_pew_pp": 5.07116027861168,
+          "sampled_minus_pew_pp": 7.740632814272791,
+          "sampling_noise_pp": 2.6694725356611104
+        },
+        {
+          "option": "Make no difference for the U.S. economy",
+          "pew": 0.30963515240886275,
+          "synth_expected": 0.24788009806714667,
+          "synth_sampled": 0.21627504289271712,
+          "expected_minus_pew_pp": -6.175505434171607,
+          "sampled_minus_pew_pp": -9.336010951614563,
+          "sampling_noise_pp": -3.160505517442955
+        }
+      ],
+      "topline_max_abs_expected_pp": 6.175505434171607,
+      "topline_max_abs_sampled_pp": 9.336010951614563,
+      "topline_sampling_noise_max_pp": 3.160505517442955,
+      "validation_cell_breakdown": {
+        "age": [
+          {
+            "cell": "age=18-29",
+            "n_synth": 214,
+            "n_pew": 926,
+            "max_abs_expected_pp": 10.43,
+            "max_abs_sampled_pp": 10.98,
+            "sampling_noise_share": 0.55
+          },
+          {
+            "cell": "age=30-44",
+            "n_synth": 277,
+            "n_pew": 3036,
+            "max_abs_expected_pp": 8.76,
+            "max_abs_sampled_pp": 13.72,
+            "sampling_noise_share": 4.96
+          },
+          {
+            "cell": "age=45-64",
+            "n_synth": 296,
+            "n_pew": 2567,
+            "max_abs_expected_pp": 7.1,
+            "max_abs_sampled_pp": 8.88,
+            "sampling_noise_share": 1.78
+          },
+          {
+            "cell": "age=65+",
+            "n_synth": 213,
+            "n_pew": 2872,
+            "max_abs_expected_pp": 6.11,
+            "max_abs_sampled_pp": 12.41,
+            "sampling_noise_share": 6.31
+          }
+        ],
+        "race": [
+          {
+            "cell": "race=Asian/Other",
+            "n_synth": 113,
+            "n_pew": 884,
+            "max_abs_expected_pp": 5.97,
+            "max_abs_sampled_pp": 7.05,
+            "sampling_noise_share": 1.08
+          },
+          {
+            "cell": "race=Black",
+            "n_synth": 108,
+            "n_pew": 921,
+            "max_abs_expected_pp": 10.21,
+            "max_abs_sampled_pp": 10.67,
+            "sampling_noise_share": 0.47
+          },
+          {
+            "cell": "race=Hispanic",
+            "n_synth": 187,
+            "n_pew": 1040,
+            "max_abs_expected_pp": 9.8,
+            "max_abs_sampled_pp": 19.46,
+            "sampling_noise_share": 9.66
+          },
+          {
+            "cell": "race=White-NH",
+            "n_synth": 592,
+            "n_pew": 6496,
+            "max_abs_expected_pp": 5.25,
+            "max_abs_sampled_pp": 8.32,
+            "sampling_noise_share": 3.07
+          }
+        ],
+        "education": [
+          {
+            "cell": "education=BA+",
+            "n_synth": 304,
+            "n_pew": 4590,
+            "max_abs_expected_pp": 3.01,
+            "max_abs_sampled_pp": 3.41,
+            "sampling_noise_share": 0.4
+          },
+          {
+            "cell": "education=HS",
+            "n_synth": 379,
+            "n_pew": 1987,
+            "max_abs_expected_pp": 10.81,
+            "max_abs_sampled_pp": 14.76,
+            "sampling_noise_share": 3.96
+          },
+          {
+            "cell": "education=SomeCollege/AA",
+            "n_synth": 225,
+            "n_pew": 2844,
+            "max_abs_expected_pp": 4.69,
+            "max_abs_sampled_pp": 9.99,
+            "sampling_noise_share": 5.3
+          }
+        ],
+        "party": [
+          {
+            "cell": "party=D",
+            "n_synth": 490,
+            "n_pew": 4879,
+            "max_abs_expected_pp": 8.23,
+            "max_abs_sampled_pp": 8.85,
+            "sampling_noise_share": 0.62
+          },
+          {
+            "cell": "party=I",
+            "n_synth": 67,
+            "n_pew": 183,
+            "max_abs_expected_pp": 20.89,
+            "max_abs_sampled_pp": 30.77,
+            "sampling_noise_share": 9.88
+          },
+          {
+            "cell": "party=R",
+            "n_synth": 443,
+            "n_pew": 4377,
+            "max_abs_expected_pp": 7.42,
+            "max_abs_sampled_pp": 12.08,
+            "sampling_noise_share": 4.66
+          }
+        ]
+      },
+      "worst_expected_cells_top5": [
+        {
+          "axis": "party",
+          "cell": "party=I",
+          "n_synth": 67,
+          "n_pew": 183,
+          "max_abs_expected_pp": 20.89,
+          "max_abs_sampled_pp": 30.77,
+          "sampling_noise_share": 9.88
+        },
+        {
+          "axis": "education",
+          "cell": "education=HS",
+          "n_synth": 379,
+          "n_pew": 1987,
+          "max_abs_expected_pp": 10.81,
+          "max_abs_sampled_pp": 14.76,
+          "sampling_noise_share": 3.96
+        },
+        {
+          "axis": "age",
+          "cell": "age=18-29",
+          "n_synth": 214,
+          "n_pew": 926,
+          "max_abs_expected_pp": 10.43,
+          "max_abs_sampled_pp": 10.98,
+          "sampling_noise_share": 0.55
+        },
+        {
+          "axis": "race",
+          "cell": "race=Black",
+          "n_synth": 108,
+          "n_pew": 921,
+          "max_abs_expected_pp": 10.21,
+          "max_abs_sampled_pp": 10.67,
+          "sampling_noise_share": 0.47
+        },
+        {
+          "axis": "race",
+          "cell": "race=Hispanic",
+          "n_synth": 187,
+          "n_pew": 1040,
+          "max_abs_expected_pp": 9.8,
+          "max_abs_sampled_pp": 19.46,
+          "sampling_noise_share": 9.66
+        }
+      ]
+    },
+    "Q4_scientist_confidence": {
+      "options": [
+        "A great deal of confidence",
+        "A fair amount of confidence",
+        "Not too much confidence",
+        "No confidence at all"
+      ],
+      "topline_per_option": [
+        {
+          "option": "A great deal of confidence",
+          "pew": 0.25789235284527084,
+          "synth_expected": 0.18858963344517615,
+          "synth_sampled": 0.18168510809034746,
+          "expected_minus_pew_pp": -6.930271940009469,
+          "sampled_minus_pew_pp": -7.620724475492338,
+          "sampling_noise_pp": -0.6904525354828689
+        },
+        {
+          "option": "A fair amount of confidence",
+          "pew": 0.5077437132589938,
+          "synth_expected": 0.4338921090627593,
+          "synth_sampled": 0.4399816546827096,
+          "expected_minus_pew_pp": -7.385160419623449,
+          "sampled_minus_pew_pp": -6.77620585762842,
+          "sampling_noise_pp": 0.6089545619950287
+        },
+        {
+          "option": "Not too much confidence",
+          "pew": 0.19516874230971332,
+          "synth_expected": 0.28344091088470863,
+          "synth_sampled": 0.2812807975926056,
+          "expected_minus_pew_pp": 8.827216857499531,
+          "sampled_minus_pew_pp": 8.61120552828923,
+          "sampling_noise_pp": -0.21601132921030275
+        },
+        {
+          "option": "No confidence at all",
+          "pew": 0.039195191586022055,
+          "synth_expected": 0.09407734660735656,
+          "synth_sampled": 0.09705243963433738,
+          "expected_minus_pew_pp": 5.488215502133451,
+          "sampled_minus_pew_pp": 5.785724804831532,
+          "sampling_noise_pp": 0.29750930269808185
+        }
+      ],
+      "topline_max_abs_expected_pp": 8.827216857499531,
+      "topline_max_abs_sampled_pp": 8.61120552828923,
+      "topline_sampling_noise_max_pp": 0.6904525354828689,
+      "validation_cell_breakdown": {
+        "age": [
+          {
+            "cell": "age=18-29",
+            "n_synth": 214,
+            "n_pew": 494,
+            "max_abs_expected_pp": 12.04,
+            "max_abs_sampled_pp": 11.75,
+            "sampling_noise_share": -0.29
+          },
+          {
+            "cell": "age=30-44",
+            "n_synth": 277,
+            "n_pew": 1512,
+            "max_abs_expected_pp": 6.35,
+            "max_abs_sampled_pp": 11.84,
+            "sampling_noise_share": 5.49
+          },
+          {
+            "cell": "age=45-64",
+            "n_synth": 296,
+            "n_pew": 1333,
+            "max_abs_expected_pp": 8.4,
+            "max_abs_sampled_pp": 8.38,
+            "sampling_noise_share": -0.02
+          },
+          {
+            "cell": "age=65+",
+            "n_synth": 213,
+            "n_pew": 1441,
+            "max_abs_expected_pp": 14.41,
+            "max_abs_sampled_pp": 13.94,
+            "sampling_noise_share": -0.47
+          }
+        ],
+        "race": [
+          {
+            "cell": "race=Asian/Other",
+            "n_synth": 113,
+            "n_pew": 467,
+            "max_abs_expected_pp": 8.91,
+            "max_abs_sampled_pp": 6.86,
+            "sampling_noise_share": -2.04
+          },
+          {
+            "cell": "race=Black",
+            "n_synth": 108,
+            "n_pew": 487,
+            "max_abs_expected_pp": 4.06,
+            "max_abs_sampled_pp": 6.11,
+            "sampling_noise_share": 2.04
+          },
+          {
+            "cell": "race=Hispanic",
+            "n_synth": 187,
+            "n_pew": 503,
+            "max_abs_expected_pp": 4.85,
+            "max_abs_sampled_pp": 6.97,
+            "sampling_noise_share": 2.12
+          },
+          {
+            "cell": "race=White-NH",
+            "n_synth": 592,
+            "n_pew": 3284,
+            "max_abs_expected_pp": 11.63,
+            "max_abs_sampled_pp": 10.84,
+            "sampling_noise_share": -0.79
+          }
+        ],
+        "education": [
+          {
+            "cell": "education=BA+",
+            "n_synth": 304,
+            "n_pew": 2345,
+            "max_abs_expected_pp": 12.44,
+            "max_abs_sampled_pp": 13.75,
+            "sampling_noise_share": 1.31
+          },
+          {
+            "cell": "education=HS",
+            "n_synth": 379,
+            "n_pew": 1000,
+            "max_abs_expected_pp": 8.86,
+            "max_abs_sampled_pp": 8.31,
+            "sampling_noise_share": -0.55
+          },
+          {
+            "cell": "education=SomeCollege/AA",
+            "n_synth": 225,
+            "n_pew": 1445,
+            "max_abs_expected_pp": 8.87,
+            "max_abs_sampled_pp": 11.77,
+            "sampling_noise_share": 2.9
+          }
+        ],
+        "party": [
+          {
+            "cell": "party=D",
+            "n_synth": 490,
+            "n_pew": 2470,
+            "max_abs_expected_pp": 12.41,
+            "max_abs_sampled_pp": 12.62,
+            "sampling_noise_share": 0.21
+          },
+          {
+            "cell": "party=I",
+            "n_synth": 67,
+            "n_pew": 99,
+            "max_abs_expected_pp": 6.62,
+            "max_abs_sampled_pp": 8.14,
+            "sampling_noise_share": 1.53
+          },
+          {
+            "cell": "party=R",
+            "n_synth": 443,
+            "n_pew": 2231,
+            "max_abs_expected_pp": 18.78,
+            "max_abs_sampled_pp": 20.18,
+            "sampling_noise_share": 1.4
+          }
+        ]
+      },
+      "worst_expected_cells_top5": [
+        {
+          "axis": "party",
+          "cell": "party=R",
+          "n_synth": 443,
+          "n_pew": 2231,
+          "max_abs_expected_pp": 18.78,
+          "max_abs_sampled_pp": 20.18,
+          "sampling_noise_share": 1.4
+        },
+        {
+          "axis": "age",
+          "cell": "age=65+",
+          "n_synth": 213,
+          "n_pew": 1441,
+          "max_abs_expected_pp": 14.41,
+          "max_abs_sampled_pp": 13.94,
+          "sampling_noise_share": -0.47
+        },
+        {
+          "axis": "education",
+          "cell": "education=BA+",
+          "n_synth": 304,
+          "n_pew": 2345,
+          "max_abs_expected_pp": 12.44,
+          "max_abs_sampled_pp": 13.75,
+          "sampling_noise_share": 1.31
+        },
+        {
+          "axis": "party",
+          "cell": "party=D",
+          "n_synth": 490,
+          "n_pew": 2470,
+          "max_abs_expected_pp": 12.41,
+          "max_abs_sampled_pp": 12.62,
+          "sampling_noise_share": 0.21
+        },
+        {
+          "axis": "age",
+          "cell": "age=18-29",
+          "n_synth": 214,
+          "n_pew": 494,
+          "max_abs_expected_pp": 12.04,
+          "max_abs_sampled_pp": 11.75,
+          "sampling_noise_share": -0.29
+        }
+      ]
+    },
+    "Q5_scientists_policy_role": {
+      "options": [
+        "Usually better at making good policy decisions about scientific issues than other people",
+        "Usually worse at making good policy decisions about scientific issues than other people",
+        "Neither better nor worse at making good policy decisions about scientific issues than other people"
+      ],
+      "topline_per_option": [
+        {
+          "option": "Usually better at making good policy decisions about scientific issues than other people",
+          "pew": 0.43072207533952295,
+          "synth_expected": 0.43730615445082766,
+          "synth_sampled": 0.43618364441954915,
+          "expected_minus_pew_pp": 0.6584079111304708,
+          "sampled_minus_pew_pp": 0.5461569080026207,
+          "sampling_noise_pp": -0.11225100312785008
+        },
+        {
+          "option": "Usually worse at making good policy decisions about scientific issues than other people",
+          "pew": 0.10332673603666082,
+          "synth_expected": 0.11443869172700984,
+          "synth_sampled": 0.1211575973572446,
+          "expected_minus_pew_pp": 1.111195569034902,
+          "sampled_minus_pew_pp": 1.7830861320583784,
+          "sampling_noise_pp": 0.6718905630234764
+        },
+        {
+          "option": "Neither better nor worse at making good policy decisions about scientific issues than other people",
+          "pew": 0.4659511886238163,
+          "synth_expected": 0.44825515382216236,
+          "synth_sampled": 0.4426587582232063,
+          "expected_minus_pew_pp": -1.7696034801653937,
+          "sampled_minus_pew_pp": -2.329243040061002,
+          "sampling_noise_pp": -0.5596395598956083
+        }
+      ],
+      "topline_max_abs_expected_pp": 1.7696034801653937,
+      "topline_max_abs_sampled_pp": 2.329243040061002,
+      "topline_sampling_noise_max_pp": 0.6718905630234764,
+      "validation_cell_breakdown": {
+        "age": [
+          {
+            "cell": "age=18-29",
+            "n_synth": 214,
+            "n_pew": 936,
+            "max_abs_expected_pp": 7.36,
+            "max_abs_sampled_pp": 11.54,
+            "sampling_noise_share": 4.19
+          },
+          {
+            "cell": "age=30-44",
+            "n_synth": 277,
+            "n_pew": 3053,
+            "max_abs_expected_pp": 0.86,
+            "max_abs_sampled_pp": 1.1,
+            "sampling_noise_share": 0.23
+          },
+          {
+            "cell": "age=45-64",
+            "n_synth": 296,
+            "n_pew": 2583,
+            "max_abs_expected_pp": 5.32,
+            "max_abs_sampled_pp": 11.15,
+            "sampling_noise_share": 5.83
+          },
+          {
+            "cell": "age=65+",
+            "n_synth": 213,
+            "n_pew": 2908,
+            "max_abs_expected_pp": 7.25,
+            "max_abs_sampled_pp": 5.68,
+            "sampling_noise_share": -1.57
+          }
+        ],
+        "race": [
+          {
+            "cell": "race=Asian/Other",
+            "n_synth": 113,
+            "n_pew": 899,
+            "max_abs_expected_pp": 0.88,
+            "max_abs_sampled_pp": 5.63,
+            "sampling_noise_share": 4.75
+          },
+          {
+            "cell": "race=Black",
+            "n_synth": 108,
+            "n_pew": 920,
+            "max_abs_expected_pp": 13.17,
+            "max_abs_sampled_pp": 18.01,
+            "sampling_noise_share": 4.84
+          },
+          {
+            "cell": "race=Hispanic",
+            "n_synth": 187,
+            "n_pew": 1053,
+            "max_abs_expected_pp": 4.65,
+            "max_abs_sampled_pp": 4.01,
+            "sampling_noise_share": -0.64
+          },
+          {
+            "cell": "race=White-NH",
+            "n_synth": 592,
+            "n_pew": 6547,
+            "max_abs_expected_pp": 3.12,
+            "max_abs_sampled_pp": 2.1,
+            "sampling_noise_share": -1.02
+          }
+        ],
+        "education": [
+          {
+            "cell": "education=BA+",
+            "n_synth": 304,
+            "n_pew": 4622,
+            "max_abs_expected_pp": 3.02,
+            "max_abs_sampled_pp": 3.3,
+            "sampling_noise_share": 0.28
+          },
+          {
+            "cell": "education=HS",
+            "n_synth": 379,
+            "n_pew": 2010,
+            "max_abs_expected_pp": 5.75,
+            "max_abs_sampled_pp": 4.42,
+            "sampling_noise_share": -1.33
+          },
+          {
+            "cell": "education=SomeCollege/AA",
+            "n_synth": 225,
+            "n_pew": 2866,
+            "max_abs_expected_pp": 1.24,
+            "max_abs_sampled_pp": 2.35,
+            "sampling_noise_share": 1.11
+          }
+        ],
+        "party": [
+          {
+            "cell": "party=D",
+            "n_synth": 490,
+            "n_pew": 4923,
+            "max_abs_expected_pp": 2.97,
+            "max_abs_sampled_pp": 2.47,
+            "sampling_noise_share": -0.5
+          },
+          {
+            "cell": "party=I",
+            "n_synth": 67,
+            "n_pew": 197,
+            "max_abs_expected_pp": 13.2,
+            "max_abs_sampled_pp": 12.94,
+            "sampling_noise_share": -0.26
+          },
+          {
+            "cell": "party=R",
+            "n_synth": 443,
+            "n_pew": 4397,
+            "max_abs_expected_pp": 4.24,
+            "max_abs_sampled_pp": 2.2,
+            "sampling_noise_share": -2.04
+          }
+        ]
+      },
+      "worst_expected_cells_top5": [
+        {
+          "axis": "party",
+          "cell": "party=I",
+          "n_synth": 67,
+          "n_pew": 197,
+          "max_abs_expected_pp": 13.2,
+          "max_abs_sampled_pp": 12.94,
+          "sampling_noise_share": -0.26
+        },
+        {
+          "axis": "race",
+          "cell": "race=Black",
+          "n_synth": 108,
+          "n_pew": 920,
+          "max_abs_expected_pp": 13.17,
+          "max_abs_sampled_pp": 18.01,
+          "sampling_noise_share": 4.84
+        },
+        {
+          "axis": "age",
+          "cell": "age=18-29",
+          "n_synth": 214,
+          "n_pew": 936,
+          "max_abs_expected_pp": 7.36,
+          "max_abs_sampled_pp": 11.54,
+          "sampling_noise_share": 4.19
+        },
+        {
+          "axis": "age",
+          "cell": "age=65+",
+          "n_synth": 213,
+          "n_pew": 2908,
+          "max_abs_expected_pp": 7.25,
+          "max_abs_sampled_pp": 5.68,
+          "sampling_noise_share": -1.57
+        },
+        {
+          "axis": "education",
+          "cell": "education=HS",
+          "n_synth": 379,
+          "n_pew": 2010,
+          "max_abs_expected_pp": 5.75,
+          "max_abs_sampled_pp": 4.42,
+          "sampling_noise_share": -1.33
+        }
+      ]
+    },
+    "Q6_covid_restrictions_retro": {
+      "options": [
+        "More restrictions",
+        "Fewer restrictions",
+        "The restrictions were about right"
+      ],
+      "topline_per_option": [
+        {
+          "option": "More restrictions",
+          "pew": 0.1795433456794402,
+          "synth_expected": 0.1680840634300268,
+          "synth_sampled": 0.1658266613218353,
+          "expected_minus_pew_pp": -1.1459282249413394,
+          "sampled_minus_pew_pp": -1.3716684357604896,
+          "sampling_noise_pp": -0.2257402108191503
+        },
+        {
+          "option": "Fewer restrictions",
+          "pew": 0.38002667487041975,
+          "synth_expected": 0.4224516663683543,
+          "synth_sampled": 0.4352525762473839,
+          "expected_minus_pew_pp": 4.2424991497934545,
+          "sampled_minus_pew_pp": 5.522590137696415,
+          "sampling_noise_pp": 1.2800909879029598
+        },
+        {
+          "option": "The restrictions were about right",
+          "pew": 0.44042997945014023,
+          "synth_expected": 0.40946427020161924,
+          "synth_sampled": 0.39892076243078084,
+          "expected_minus_pew_pp": -3.0965709248520987,
+          "sampled_minus_pew_pp": -4.150921701935939,
+          "sampling_noise_pp": -1.05435077708384
+        }
+      ],
+      "topline_max_abs_expected_pp": 4.2424991497934545,
+      "topline_max_abs_sampled_pp": 5.522590137696415,
+      "topline_sampling_noise_max_pp": 1.2800909879029598,
+      "validation_cell_breakdown": {
+        "age": [
+          {
+            "cell": "age=18-29",
+            "n_synth": 214,
+            "n_pew": 936,
+            "max_abs_expected_pp": 10.1,
+            "max_abs_sampled_pp": 15.58,
+            "sampling_noise_share": 5.49
+          },
+          {
+            "cell": "age=30-44",
+            "n_synth": 277,
+            "n_pew": 3060,
+            "max_abs_expected_pp": 4.05,
+            "max_abs_sampled_pp": 2.3,
+            "sampling_noise_share": -1.75
+          },
+          {
+            "cell": "age=45-64",
+            "n_synth": 296,
+            "n_pew": 2592,
+            "max_abs_expected_pp": 3.3,
+            "max_abs_sampled_pp": 6.12,
+            "sampling_noise_share": 2.83
+          },
+          {
+            "cell": "age=65+",
+            "n_synth": 213,
+            "n_pew": 2943,
+            "max_abs_expected_pp": 12.82,
+            "max_abs_sampled_pp": 8.84,
+            "sampling_noise_share": -3.98
+          }
+        ],
+        "race": [
+          {
+            "cell": "race=Asian/Other",
+            "n_synth": 113,
+            "n_pew": 899,
+            "max_abs_expected_pp": 7.22,
+            "max_abs_sampled_pp": 4.99,
+            "sampling_noise_share": -2.23
+          },
+          {
+            "cell": "race=Black",
+            "n_synth": 108,
+            "n_pew": 929,
+            "max_abs_expected_pp": 5.08,
+            "max_abs_sampled_pp": 15.03,
+            "sampling_noise_share": 9.95
+          },
+          {
+            "cell": "race=Hispanic",
+            "n_synth": 187,
+            "n_pew": 1053,
+            "max_abs_expected_pp": 10.77,
+            "max_abs_sampled_pp": 14.08,
+            "sampling_noise_share": 3.3
+          },
+          {
+            "cell": "race=White-NH",
+            "n_synth": 592,
+            "n_pew": 6588,
+            "max_abs_expected_pp": 5.56,
+            "max_abs_sampled_pp": 6.59,
+            "sampling_noise_share": 1.03
+          }
+        ],
+        "education": [
+          {
+            "cell": "education=BA+",
+            "n_synth": 304,
+            "n_pew": 4646,
+            "max_abs_expected_pp": 4.27,
+            "max_abs_sampled_pp": 5.5,
+            "sampling_noise_share": 1.23
+          },
+          {
+            "cell": "education=HS",
+            "n_synth": 379,
+            "n_pew": 2020,
+            "max_abs_expected_pp": 6.29,
+            "max_abs_sampled_pp": 6.63,
+            "sampling_noise_share": 0.34
+          },
+          {
+            "cell": "education=SomeCollege/AA",
+            "n_synth": 225,
+            "n_pew": 2883,
+            "max_abs_expected_pp": 2.35,
+            "max_abs_sampled_pp": 7.32,
+            "sampling_noise_share": 4.96
+          }
+        ],
+        "party": [
+          {
+            "cell": "party=D",
+            "n_synth": 490,
+            "n_pew": 4942,
+            "max_abs_expected_pp": 2.53,
+            "max_abs_sampled_pp": 3.69,
+            "sampling_noise_share": 1.16
+          },
+          {
+            "cell": "party=I",
+            "n_synth": 67,
+            "n_pew": 196,
+            "max_abs_expected_pp": 10.69,
+            "max_abs_sampled_pp": 13.23,
+            "sampling_noise_share": 2.54
+          },
+          {
+            "cell": "party=R",
+            "n_synth": 443,
+            "n_pew": 4431,
+            "max_abs_expected_pp": 9.27,
+            "max_abs_sampled_pp": 10.1,
+            "sampling_noise_share": 0.83
+          }
+        ]
+      },
+      "worst_expected_cells_top5": [
+        {
+          "axis": "age",
+          "cell": "age=65+",
+          "n_synth": 213,
+          "n_pew": 2943,
+          "max_abs_expected_pp": 12.82,
+          "max_abs_sampled_pp": 8.84,
+          "sampling_noise_share": -3.98
+        },
+        {
+          "axis": "race",
+          "cell": "race=Hispanic",
+          "n_synth": 187,
+          "n_pew": 1053,
+          "max_abs_expected_pp": 10.77,
+          "max_abs_sampled_pp": 14.08,
+          "sampling_noise_share": 3.3
+        },
+        {
+          "axis": "party",
+          "cell": "party=I",
+          "n_synth": 67,
+          "n_pew": 196,
+          "max_abs_expected_pp": 10.69,
+          "max_abs_sampled_pp": 13.23,
+          "sampling_noise_share": 2.54
+        },
+        {
+          "axis": "age",
+          "cell": "age=18-29",
+          "n_synth": 214,
+          "n_pew": 936,
+          "max_abs_expected_pp": 10.1,
+          "max_abs_sampled_pp": 15.58,
+          "sampling_noise_share": 5.49
+        },
+        {
+          "axis": "party",
+          "cell": "party=R",
+          "n_synth": 443,
+          "n_pew": 4431,
+          "max_abs_expected_pp": 9.27,
+          "max_abs_sampled_pp": 10.1,
+          "sampling_noise_share": 0.83
+        }
+      ]
+    },
+    "Q7_covid_school_closures": {
+      "options": [
+        "Too long",
+        "Not long enough",
+        "About the right amount of time",
+        "K-12 public schools in my area were never closed",
+        "Not sure"
+      ],
+      "topline_per_option": [
+        {
+          "option": "Too long",
+          "pew": 0.350441327413429,
+          "synth_expected": 0.3996051127924116,
+          "synth_sampled": 0.3995533131034914,
+          "expected_minus_pew_pp": 4.916378537898264,
+          "sampled_minus_pew_pp": 4.911198569006242,
+          "sampling_noise_pp": -0.005179968892021769
+        },
+        {
+          "option": "Not long enough",
+          "pew": 0.08973109635300851,
+          "synth_expected": 0.08769354178190071,
+          "synth_sampled": 0.10977172523126935,
+          "expected_minus_pew_pp": -0.2037554571107797,
+          "sampled_minus_pew_pp": 2.0040628878260844,
+          "sampling_noise_pp": 2.207818344936864
+        },
+        {
+          "option": "About the right amount of time",
+          "pew": 0.3571325255048799,
+          "synth_expected": 0.23293922350730542,
+          "synth_sampled": 0.2304501652505984,
+          "expected_minus_pew_pp": -12.419330199757447,
+          "sampled_minus_pew_pp": -12.66823602542815,
+          "sampling_noise_pp": -0.2489058256707033
+        },
+        {
+          "option": "K-12 public schools in my area were never closed",
+          "pew": 0.027375908256028748,
+          "synth_expected": 0.05739102355621992,
+          "synth_sampled": 0.04774599508180859,
+          "expected_minus_pew_pp": 3.001511530019117,
+          "sampled_minus_pew_pp": 2.037008682577984,
+          "sampling_noise_pp": -0.964502847441133
+        },
+        {
+          "option": "Not sure",
+          "pew": 0.1753191424726539,
+          "synth_expected": 0.22237109836216326,
+          "synth_sampled": 0.21247880133283234,
+          "expected_minus_pew_pp": 4.705195588950936,
+          "sampled_minus_pew_pp": 3.715965886017844,
+          "sampling_noise_pp": -0.9892297029330921
+        }
+      ],
+      "topline_max_abs_expected_pp": 12.419330199757447,
+      "topline_max_abs_sampled_pp": 12.66823602542815,
+      "topline_sampling_noise_max_pp": 2.207818344936864,
+      "validation_cell_breakdown": {
+        "age": [
+          {
+            "cell": "age=18-29",
+            "n_synth": 214,
+            "n_pew": 935,
+            "max_abs_expected_pp": 16.12,
+            "max_abs_sampled_pp": 13.82,
+            "sampling_noise_share": -2.3
+          },
+          {
+            "cell": "age=30-44",
+            "n_synth": 277,
+            "n_pew": 3061,
+            "max_abs_expected_pp": 9.38,
+            "max_abs_sampled_pp": 8.38,
+            "sampling_noise_share": -1.0
+          },
+          {
+            "cell": "age=45-64",
+            "n_synth": 296,
+            "n_pew": 2596,
+            "max_abs_expected_pp": 12.24,
+            "max_abs_sampled_pp": 14.24,
+            "sampling_noise_share": 1.99
+          },
+          {
+            "cell": "age=65+",
+            "n_synth": 213,
+            "n_pew": 2946,
+            "max_abs_expected_pp": 14.29,
+            "max_abs_sampled_pp": 15.87,
+            "sampling_noise_share": 1.59
+          }
+        ],
+        "race": [
+          {
+            "cell": "race=Asian/Other",
+            "n_synth": 113,
+            "n_pew": 899,
+            "max_abs_expected_pp": 13.04,
+            "max_abs_sampled_pp": 17.53,
+            "sampling_noise_share": 4.5
+          },
+          {
+            "cell": "race=Black",
+            "n_synth": 108,
+            "n_pew": 929,
+            "max_abs_expected_pp": 22.15,
+            "max_abs_sampled_pp": 21.41,
+            "sampling_noise_share": -0.74
+          },
+          {
+            "cell": "race=Hispanic",
+            "n_synth": 187,
+            "n_pew": 1051,
+            "max_abs_expected_pp": 18.2,
+            "max_abs_sampled_pp": 21.56,
+            "sampling_noise_share": 3.36
+          },
+          {
+            "cell": "race=White-NH",
+            "n_synth": 592,
+            "n_pew": 6596,
+            "max_abs_expected_pp": 9.34,
+            "max_abs_sampled_pp": 8.0,
+            "sampling_noise_share": -1.34
+          }
+        ],
+        "education": [
+          {
+            "cell": "education=BA+",
+            "n_synth": 304,
+            "n_pew": 4648,
+            "max_abs_expected_pp": 11.27,
+            "max_abs_sampled_pp": 14.77,
+            "sampling_noise_share": 3.5
+          },
+          {
+            "cell": "education=HS",
+            "n_synth": 379,
+            "n_pew": 2021,
+            "max_abs_expected_pp": 14.54,
+            "max_abs_sampled_pp": 15.06,
+            "sampling_noise_share": 0.51
+          },
+          {
+            "cell": "education=SomeCollege/AA",
+            "n_synth": 225,
+            "n_pew": 2888,
+            "max_abs_expected_pp": 10.33,
+            "max_abs_sampled_pp": 6.23,
+            "sampling_noise_share": -4.1
+          }
+        ],
+        "party": [
+          {
+            "cell": "party=D",
+            "n_synth": 490,
+            "n_pew": 4945,
+            "max_abs_expected_pp": 17.83,
+            "max_abs_sampled_pp": 18.0,
+            "sampling_noise_share": 0.17
+          },
+          {
+            "cell": "party=I",
+            "n_synth": 67,
+            "n_pew": 197,
+            "max_abs_expected_pp": 22.46,
+            "max_abs_sampled_pp": 24.85,
+            "sampling_noise_share": 2.38
+          },
+          {
+            "cell": "party=R",
+            "n_synth": 443,
+            "n_pew": 4434,
+            "max_abs_expected_pp": 7.81,
+            "max_abs_sampled_pp": 9.84,
+            "sampling_noise_share": 2.03
+          }
+        ]
+      },
+      "worst_expected_cells_top5": [
+        {
+          "axis": "party",
+          "cell": "party=I",
+          "n_synth": 67,
+          "n_pew": 197,
+          "max_abs_expected_pp": 22.46,
+          "max_abs_sampled_pp": 24.85,
+          "sampling_noise_share": 2.38
+        },
+        {
+          "axis": "race",
+          "cell": "race=Black",
+          "n_synth": 108,
+          "n_pew": 929,
+          "max_abs_expected_pp": 22.15,
+          "max_abs_sampled_pp": 21.41,
+          "sampling_noise_share": -0.74
+        },
+        {
+          "axis": "race",
+          "cell": "race=Hispanic",
+          "n_synth": 187,
+          "n_pew": 1051,
+          "max_abs_expected_pp": 18.2,
+          "max_abs_sampled_pp": 21.56,
+          "sampling_noise_share": 3.36
+        },
+        {
+          "axis": "party",
+          "cell": "party=D",
+          "n_synth": 490,
+          "n_pew": 4945,
+          "max_abs_expected_pp": 17.83,
+          "max_abs_sampled_pp": 18.0,
+          "sampling_noise_share": 0.17
+        },
+        {
+          "axis": "age",
+          "cell": "age=18-29",
+          "n_synth": 214,
+          "n_pew": 935,
+          "max_abs_expected_pp": 16.12,
+          "max_abs_sampled_pp": 13.82,
+          "sampling_noise_share": -2.3
+        }
+      ]
+    },
+    "Q8_covid_updated_vaccine": {
+      "options": [
+        "Probably get an updated vaccine",
+        "Probably not get an updated vaccine",
+        "Have already received an updated vaccine"
+      ],
+      "topline_per_option": [
+        {
+          "option": "Probably get an updated vaccine",
+          "pew": 0.24627235284100893,
+          "synth_expected": 0.25096863530811503,
+          "synth_sampled": 0.24333408689746164,
+          "expected_minus_pew_pp": 0.46962824671061,
+          "sampled_minus_pew_pp": -0.29382659435472913,
+          "sampling_noise_pp": -0.7634548410653391
+        },
+        {
+          "option": "Probably not get an updated vaccine",
+          "pew": 0.601360251074298,
+          "synth_expected": 0.4407918378813879,
+          "synth_sampled": 0.4274495191598569,
+          "expected_minus_pew_pp": -16.05684131929101,
+          "sampled_minus_pew_pp": -17.39107319144411,
+          "sampling_noise_pp": -1.3342318721531021
+        },
+        {
+          "option": "Have already received an updated vaccine",
+          "pew": 0.15236739608469302,
+          "synth_expected": 0.30823952681049754,
+          "synth_sampled": 0.3292163939426816,
+          "expected_minus_pew_pp": 15.587213072580452,
+          "sampled_minus_pew_pp": 17.68489978579886,
+          "sampling_noise_pp": 2.097686713218405
+        }
+      ],
+      "topline_max_abs_expected_pp": 16.05684131929101,
+      "topline_max_abs_sampled_pp": 17.68489978579886,
+      "topline_sampling_noise_max_pp": 2.097686713218405,
+      "validation_cell_breakdown": {
+        "age": [
+          {
+            "cell": "age=18-29",
+            "n_synth": 214,
+            "n_pew": 931,
+            "max_abs_expected_pp": 8.45,
+            "max_abs_sampled_pp": 11.07,
+            "sampling_noise_share": 2.63
+          },
+          {
+            "cell": "age=30-44",
+            "n_synth": 277,
+            "n_pew": 3044,
+            "max_abs_expected_pp": 20.6,
+            "max_abs_sampled_pp": 24.11,
+            "sampling_noise_share": 3.51
+          },
+          {
+            "cell": "age=45-64",
+            "n_synth": 296,
+            "n_pew": 2583,
+            "max_abs_expected_pp": 19.6,
+            "max_abs_sampled_pp": 19.59,
+            "sampling_noise_share": -0.02
+          },
+          {
+            "cell": "age=65+",
+            "n_synth": 213,
+            "n_pew": 2932,
+            "max_abs_expected_pp": 15.72,
+            "max_abs_sampled_pp": 20.34,
+            "sampling_noise_share": 4.62
+          }
+        ],
+        "race": [
+          {
+            "cell": "race=Asian/Other",
+            "n_synth": 113,
+            "n_pew": 893,
+            "max_abs_expected_pp": 19.59,
+            "max_abs_sampled_pp": 22.41,
+            "sampling_noise_share": 2.82
+          },
+          {
+            "cell": "race=Black",
+            "n_synth": 108,
+            "n_pew": 917,
+            "max_abs_expected_pp": 15.54,
+            "max_abs_sampled_pp": 19.71,
+            "sampling_noise_share": 4.17
+          },
+          {
+            "cell": "race=Hispanic",
+            "n_synth": 187,
+            "n_pew": 1048,
+            "max_abs_expected_pp": 15.92,
+            "max_abs_sampled_pp": 19.32,
+            "sampling_noise_share": 3.4
+          },
+          {
+            "cell": "race=White-NH",
+            "n_synth": 592,
+            "n_pew": 6570,
+            "max_abs_expected_pp": 15.1,
+            "max_abs_sampled_pp": 16.45,
+            "sampling_noise_share": 1.35
+          }
+        ],
+        "education": [
+          {
+            "cell": "education=BA+",
+            "n_synth": 304,
+            "n_pew": 4632,
+            "max_abs_expected_pp": 16.54,
+            "max_abs_sampled_pp": 18.97,
+            "sampling_noise_share": 2.44
+          },
+          {
+            "cell": "education=HS",
+            "n_synth": 379,
+            "n_pew": 2012,
+            "max_abs_expected_pp": 16.19,
+            "max_abs_sampled_pp": 16.38,
+            "sampling_noise_share": 0.2
+          },
+          {
+            "cell": "education=SomeCollege/AA",
+            "n_synth": 225,
+            "n_pew": 2868,
+            "max_abs_expected_pp": 20.14,
+            "max_abs_sampled_pp": 24.77,
+            "sampling_noise_share": 4.63
+          }
+        ],
+        "party": [
+          {
+            "cell": "party=D",
+            "n_synth": 490,
+            "n_pew": 4934,
+            "max_abs_expected_pp": 18.39,
+            "max_abs_sampled_pp": 21.5,
+            "sampling_noise_share": 3.11
+          },
+          {
+            "cell": "party=I",
+            "n_synth": 67,
+            "n_pew": 185,
+            "max_abs_expected_pp": 27.84,
+            "max_abs_sampled_pp": 37.34,
+            "sampling_noise_share": 9.49
+          },
+          {
+            "cell": "party=R",
+            "n_synth": 443,
+            "n_pew": 4409,
+            "max_abs_expected_pp": 15.38,
+            "max_abs_sampled_pp": 14.95,
+            "sampling_noise_share": -0.42
+          }
+        ]
+      },
+      "worst_expected_cells_top5": [
+        {
+          "axis": "party",
+          "cell": "party=I",
+          "n_synth": 67,
+          "n_pew": 185,
+          "max_abs_expected_pp": 27.84,
+          "max_abs_sampled_pp": 37.34,
+          "sampling_noise_share": 9.49
+        },
+        {
+          "axis": "age",
+          "cell": "age=30-44",
+          "n_synth": 277,
+          "n_pew": 3044,
+          "max_abs_expected_pp": 20.6,
+          "max_abs_sampled_pp": 24.11,
+          "sampling_noise_share": 3.51
+        },
+        {
+          "axis": "education",
+          "cell": "education=SomeCollege/AA",
+          "n_synth": 225,
+          "n_pew": 2868,
+          "max_abs_expected_pp": 20.14,
+          "max_abs_sampled_pp": 24.77,
+          "sampling_noise_share": 4.63
+        },
+        {
+          "axis": "age",
+          "cell": "age=45-64",
+          "n_synth": 296,
+          "n_pew": 2583,
+          "max_abs_expected_pp": 19.6,
+          "max_abs_sampled_pp": 19.59,
+          "sampling_noise_share": -0.02
+        },
+        {
+          "axis": "race",
+          "cell": "race=Asian/Other",
+          "n_synth": 113,
+          "n_pew": 893,
+          "max_abs_expected_pp": 19.59,
+          "max_abs_sampled_pp": 22.41,
+          "sampling_noise_share": 2.82
+        }
+      ]
+    },
+    "Q9_astrology_belief": {
+      "options": [
+        "Yes, believe in",
+        "No, don't believe"
+      ],
+      "topline_per_option": [
+        {
+          "option": "Yes, believe in",
+          "pew": 0.2734338209081873,
+          "synth_expected": 0.14618345733686722,
+          "synth_sampled": 0.14541556690110913,
+          "expected_minus_pew_pp": -12.725036357132009,
+          "sampled_minus_pew_pp": -12.801825400707816,
+          "sampling_noise_pp": -0.07678904357580896
+        },
+        {
+          "option": "No, don't believe",
+          "pew": 0.7265661790918128,
+          "synth_expected": 0.8538165426631329,
+          "synth_sampled": 0.854584433098891,
+          "expected_minus_pew_pp": 12.725036357132014,
+          "sampled_minus_pew_pp": 12.801825400707823,
+          "sampling_noise_pp": 0.07678904357580896
+        }
+      ],
+      "topline_max_abs_expected_pp": 12.725036357132014,
+      "topline_max_abs_sampled_pp": 12.801825400707823,
+      "topline_sampling_noise_max_pp": 0.07678904357580896,
+      "validation_cell_breakdown": {
+        "age": [
+          {
+            "cell": "age=18-29",
+            "n_synth": 214,
+            "n_pew": 932,
+            "max_abs_expected_pp": 13.08,
+            "max_abs_sampled_pp": 11.99,
+            "sampling_noise_share": -1.09
+          },
+          {
+            "cell": "age=30-44",
+            "n_synth": 277,
+            "n_pew": 3058,
+            "max_abs_expected_pp": 14.29,
+            "max_abs_sampled_pp": 14.7,
+            "sampling_noise_share": 0.41
+          },
+          {
+            "cell": "age=45-64",
+            "n_synth": 296,
+            "n_pew": 2579,
+            "max_abs_expected_pp": 12.73,
+            "max_abs_sampled_pp": 13.76,
+            "sampling_noise_share": 1.04
+          },
+          {
+            "cell": "age=65+",
+            "n_synth": 213,
+            "n_pew": 2923,
+            "max_abs_expected_pp": 8.62,
+            "max_abs_sampled_pp": 7.99,
+            "sampling_noise_share": -0.63
+          }
+        ],
+        "race": [
+          {
+            "cell": "race=Asian/Other",
+            "n_synth": 113,
+            "n_pew": 895,
+            "max_abs_expected_pp": 7.76,
+            "max_abs_sampled_pp": 1.89,
+            "sampling_noise_share": -5.87
+          },
+          {
+            "cell": "race=Black",
+            "n_synth": 108,
+            "n_pew": 922,
+            "max_abs_expected_pp": 17.03,
+            "max_abs_sampled_pp": 19.01,
+            "sampling_noise_share": 1.98
+          },
+          {
+            "cell": "race=Hispanic",
+            "n_synth": 187,
+            "n_pew": 1051,
+            "max_abs_expected_pp": 9.4,
+            "max_abs_sampled_pp": 12.55,
+            "sampling_noise_share": 3.15
+          },
+          {
+            "cell": "race=White-NH",
+            "n_synth": 592,
+            "n_pew": 6563,
+            "max_abs_expected_pp": 14.05,
+            "max_abs_sampled_pp": 13.95,
+            "sampling_noise_share": -0.1
+          }
+        ],
+        "education": [
+          {
+            "cell": "education=BA+",
+            "n_synth": 304,
+            "n_pew": 4639,
+            "max_abs_expected_pp": 7.91,
+            "max_abs_sampled_pp": 9.27,
+            "sampling_noise_share": 1.36
+          },
+          {
+            "cell": "education=HS",
+            "n_synth": 379,
+            "n_pew": 2004,
+            "max_abs_expected_pp": 16.2,
+            "max_abs_sampled_pp": 16.73,
+            "sampling_noise_share": 0.53
+          },
+          {
+            "cell": "education=SomeCollege/AA",
+            "n_synth": 225,
+            "n_pew": 2870,
+            "max_abs_expected_pp": 15.01,
+            "max_abs_sampled_pp": 11.65,
+            "sampling_noise_share": -3.36
+          }
+        ],
+        "party": [
+          {
+            "cell": "party=D",
+            "n_synth": 490,
+            "n_pew": 4925,
+            "max_abs_expected_pp": 9.36,
+            "max_abs_sampled_pp": 8.37,
+            "sampling_noise_share": -1.0
+          },
+          {
+            "cell": "party=I",
+            "n_synth": 67,
+            "n_pew": 190,
+            "max_abs_expected_pp": 20.13,
+            "max_abs_sampled_pp": 24.3,
+            "sampling_noise_share": 4.17
+          },
+          {
+            "cell": "party=R",
+            "n_synth": 443,
+            "n_pew": 4415,
+            "max_abs_expected_pp": 16.32,
+            "max_abs_sampled_pp": 17.0,
+            "sampling_noise_share": 0.68
+          }
+        ]
+      },
+      "worst_expected_cells_top5": [
+        {
+          "axis": "party",
+          "cell": "party=I",
+          "n_synth": 67,
+          "n_pew": 190,
+          "max_abs_expected_pp": 20.13,
+          "max_abs_sampled_pp": 24.3,
+          "sampling_noise_share": 4.17
+        },
+        {
+          "axis": "race",
+          "cell": "race=Black",
+          "n_synth": 108,
+          "n_pew": 922,
+          "max_abs_expected_pp": 17.03,
+          "max_abs_sampled_pp": 19.01,
+          "sampling_noise_share": 1.98
+        },
+        {
+          "axis": "party",
+          "cell": "party=R",
+          "n_synth": 443,
+          "n_pew": 4415,
+          "max_abs_expected_pp": 16.32,
+          "max_abs_sampled_pp": 17.0,
+          "sampling_noise_share": 0.68
+        },
+        {
+          "axis": "education",
+          "cell": "education=HS",
+          "n_synth": 379,
+          "n_pew": 2004,
+          "max_abs_expected_pp": 16.2,
+          "max_abs_sampled_pp": 16.73,
+          "sampling_noise_share": 0.53
+        },
+        {
+          "axis": "education",
+          "cell": "education=SomeCollege/AA",
+          "n_synth": 225,
+          "n_pew": 2870,
+          "max_abs_expected_pp": 15.01,
+          "max_abs_sampled_pp": 11.65,
+          "sampling_noise_share": -3.36
+        }
+      ]
+    },
+    "Q10_astrology_consult_freq": {
+      "options": [
+        "Daily",
+        "At least weekly",
+        "Once or twice a month",
+        "Once or twice a year",
+        "Never"
+      ],
+      "topline_per_option": [
+        {
+          "option": "Daily",
+          "pew": 0.014778004362921726,
+          "synth_expected": 0.02710367927651581,
+          "synth_sampled": 0.028046544058444096,
+          "expected_minus_pew_pp": 1.2325674913594082,
+          "sampled_minus_pew_pp": 1.326853969552237,
+          "sampling_noise_pp": 0.09428647819282876
+        },
+        {
+          "option": "At least weekly",
+          "pew": 0.033855429899386044,
+          "synth_expected": 0.04519812381743926,
+          "synth_sampled": 0.036712879310284816,
+          "expected_minus_pew_pp": 1.1342693918053217,
+          "sampled_minus_pew_pp": 0.28574494108987714,
+          "sampling_noise_pp": -0.8485244507154446
+        },
+        {
+          "option": "Once or twice a month",
+          "pew": 0.0733043535467281,
+          "synth_expected": 0.08740741483795925,
+          "synth_sampled": 0.07895580537686388,
+          "expected_minus_pew_pp": 1.4103061291231151,
+          "sampled_minus_pew_pp": 0.5651451830135781,
+          "sampling_noise_pp": -0.8451609461095368
+        },
+        {
+          "option": "Once or twice a year",
+          "pew": 0.162175906998897,
+          "synth_expected": 0.21311365498835702,
+          "synth_sampled": 0.21345351770670193,
+          "expected_minus_pew_pp": 5.093774798946002,
+          "sampled_minus_pew_pp": 5.127761070780493,
+          "sampling_noise_pp": 0.03398627183449077
+        },
+        {
+          "option": "Never",
+          "pew": 0.7158863051920672,
+          "synth_expected": 0.6271771270797285,
+          "synth_sampled": 0.6428312535477054,
+          "expected_minus_pew_pp": -8.87091781123387,
+          "sampled_minus_pew_pp": -7.305505164436177,
+          "sampling_noise_pp": 1.5654126467976925
+        }
+      ],
+      "topline_max_abs_expected_pp": 8.87091781123387,
+      "topline_max_abs_sampled_pp": 7.305505164436177,
+      "topline_sampling_noise_max_pp": 1.5654126467976925,
+      "validation_cell_breakdown": {
+        "age": [
+          {
+            "cell": "age=18-29",
+            "n_synth": 214,
+            "n_pew": 936,
+            "max_abs_expected_pp": 9.49,
+            "max_abs_sampled_pp": 6.21,
+            "sampling_noise_share": -3.27
+          },
+          {
+            "cell": "age=30-44",
+            "n_synth": 277,
+            "n_pew": 3059,
+            "max_abs_expected_pp": 10.13,
+            "max_abs_sampled_pp": 10.5,
+            "sampling_noise_share": 0.36
+          },
+          {
+            "cell": "age=45-64",
+            "n_synth": 296,
+            "n_pew": 2592,
+            "max_abs_expected_pp": 10.19,
+            "max_abs_sampled_pp": 7.25,
+            "sampling_noise_share": -2.94
+          },
+          {
+            "cell": "age=65+",
+            "n_synth": 213,
+            "n_pew": 2942,
+            "max_abs_expected_pp": 6.9,
+            "max_abs_sampled_pp": 6.42,
+            "sampling_noise_share": -0.48
+          }
+        ],
+        "race": [
+          {
+            "cell": "race=Asian/Other",
+            "n_synth": 113,
+            "n_pew": 897,
+            "max_abs_expected_pp": 11.58,
+            "max_abs_sampled_pp": 5.33,
+            "sampling_noise_share": -6.25
+          },
+          {
+            "cell": "race=Black",
+            "n_synth": 108,
+            "n_pew": 929,
+            "max_abs_expected_pp": 9.1,
+            "max_abs_sampled_pp": 11.76,
+            "sampling_noise_share": 2.66
+          },
+          {
+            "cell": "race=Hispanic",
+            "n_synth": 187,
+            "n_pew": 1053,
+            "max_abs_expected_pp": 14.01,
+            "max_abs_sampled_pp": 7.98,
+            "sampling_noise_share": -6.02
+          },
+          {
+            "cell": "race=White-NH",
+            "n_synth": 592,
+            "n_pew": 6588,
+            "max_abs_expected_pp": 6.52,
+            "max_abs_sampled_pp": 6.27,
+            "sampling_noise_share": -0.25
+          }
+        ],
+        "education": [
+          {
+            "cell": "education=BA+",
+            "n_synth": 304,
+            "n_pew": 4644,
+            "max_abs_expected_pp": 10.23,
+            "max_abs_sampled_pp": 10.99,
+            "sampling_noise_share": 0.76
+          },
+          {
+            "cell": "education=HS",
+            "n_synth": 379,
+            "n_pew": 2023,
+            "max_abs_expected_pp": 8.66,
+            "max_abs_sampled_pp": 3.84,
+            "sampling_noise_share": -4.82
+          },
+          {
+            "cell": "education=SomeCollege/AA",
+            "n_synth": 225,
+            "n_pew": 2882,
+            "max_abs_expected_pp": 7.53,
+            "max_abs_sampled_pp": 6.47,
+            "sampling_noise_share": -1.07
+          }
+        ],
+        "party": [
+          {
+            "cell": "party=D",
+            "n_synth": 490,
+            "n_pew": 4942,
+            "max_abs_expected_pp": 12.1,
+            "max_abs_sampled_pp": 11.9,
+            "sampling_noise_share": -0.2
+          },
+          {
+            "cell": "party=I",
+            "n_synth": 67,
+            "n_pew": 194,
+            "max_abs_expected_pp": 9.01,
+            "max_abs_sampled_pp": 14.67,
+            "sampling_noise_share": 5.66
+          },
+          {
+            "cell": "party=R",
+            "n_synth": 443,
+            "n_pew": 4431,
+            "max_abs_expected_pp": 4.43,
+            "max_abs_sampled_pp": 2.16,
+            "sampling_noise_share": -2.27
+          }
+        ]
+      },
+      "worst_expected_cells_top5": [
+        {
+          "axis": "race",
+          "cell": "race=Hispanic",
+          "n_synth": 187,
+          "n_pew": 1053,
+          "max_abs_expected_pp": 14.01,
+          "max_abs_sampled_pp": 7.98,
+          "sampling_noise_share": -6.02
+        },
+        {
+          "axis": "party",
+          "cell": "party=D",
+          "n_synth": 490,
+          "n_pew": 4942,
+          "max_abs_expected_pp": 12.1,
+          "max_abs_sampled_pp": 11.9,
+          "sampling_noise_share": -0.2
+        },
+        {
+          "axis": "race",
+          "cell": "race=Asian/Other",
+          "n_synth": 113,
+          "n_pew": 897,
+          "max_abs_expected_pp": 11.58,
+          "max_abs_sampled_pp": 5.33,
+          "sampling_noise_share": -6.25
+        },
+        {
+          "axis": "education",
+          "cell": "education=BA+",
+          "n_synth": 304,
+          "n_pew": 4644,
+          "max_abs_expected_pp": 10.23,
+          "max_abs_sampled_pp": 10.99,
+          "sampling_noise_share": 0.76
+        },
+        {
+          "axis": "age",
+          "cell": "age=45-64",
+          "n_synth": 296,
+          "n_pew": 2592,
+          "max_abs_expected_pp": 10.19,
+          "max_abs_sampled_pp": 7.25,
+          "sampling_noise_share": -2.94
+        }
+      ]
+    },
+    "Q11_police_confidence": {
+      "options": [
+        "A great deal of confidence",
+        "A fair amount of confidence",
+        "Not too much confidence",
+        "No confidence at all"
+      ],
+      "topline_per_option": [
+        {
+          "option": "A great deal of confidence",
+          "pew": 0.20605888808655332,
+          "synth_expected": 0.2285474241153216,
+          "synth_sampled": 0.23376322488970727,
+          "expected_minus_pew_pp": 2.24885360287683,
+          "sampled_minus_pew_pp": 2.7704336803153957,
+          "sampling_noise_pp": 0.5215800774385659
+        },
+        {
+          "option": "A fair amount of confidence",
+          "pew": 0.5213729148024885,
+          "synth_expected": 0.4128169046821843,
+          "synth_sampled": 0.4051416738076048,
+          "expected_minus_pew_pp": -10.85560101203042,
+          "sampled_minus_pew_pp": -11.623124099488368,
+          "sampling_noise_pp": -0.7675230874579497
+        },
+        {
+          "option": "Not too much confidence",
+          "pew": 0.20571360030851554,
+          "synth_expected": 0.2635801273338894,
+          "synth_sampled": 0.26014429063115224,
+          "expected_minus_pew_pp": 5.786652702537387,
+          "sampled_minus_pew_pp": 5.44306903226367,
+          "sampling_noise_pp": -0.34358367027371717
+        },
+        {
+          "option": "No confidence at all",
+          "pew": 0.06685459680244257,
+          "synth_expected": 0.09505554386860565,
+          "synth_sampled": 0.10095081067153586,
+          "expected_minus_pew_pp": 2.820094706616308,
+          "sampled_minus_pew_pp": 3.409621386909328,
+          "sampling_noise_pp": 0.5895266802930205
+        }
+      ],
+      "topline_max_abs_expected_pp": 10.85560101203042,
+      "topline_max_abs_sampled_pp": 11.623124099488368,
+      "topline_sampling_noise_max_pp": 0.7675230874579497,
+      "validation_cell_breakdown": {
+        "age": [
+          {
+            "cell": "age=18-29",
+            "n_synth": 214,
+            "n_pew": 939,
+            "max_abs_expected_pp": 11.22,
+            "max_abs_sampled_pp": 13.35,
+            "sampling_noise_share": 2.13
+          },
+          {
+            "cell": "age=30-44",
+            "n_synth": 277,
+            "n_pew": 3062,
+            "max_abs_expected_pp": 9.71,
+            "max_abs_sampled_pp": 8.76,
+            "sampling_noise_share": -0.94
+          },
+          {
+            "cell": "age=45-64",
+            "n_synth": 296,
+            "n_pew": 2599,
+            "max_abs_expected_pp": 15.62,
+            "max_abs_sampled_pp": 16.56,
+            "sampling_noise_share": 0.94
+          },
+          {
+            "cell": "age=65+",
+            "n_synth": 213,
+            "n_pew": 2943,
+            "max_abs_expected_pp": 14.39,
+            "max_abs_sampled_pp": 16.58,
+            "sampling_noise_share": 2.19
+          }
+        ],
+        "race": [
+          {
+            "cell": "race=Asian/Other",
+            "n_synth": 113,
+            "n_pew": 899,
+            "max_abs_expected_pp": 4.94,
+            "max_abs_sampled_pp": 2.89,
+            "sampling_noise_share": -2.05
+          },
+          {
+            "cell": "race=Black",
+            "n_synth": 108,
+            "n_pew": 932,
+            "max_abs_expected_pp": 11.25,
+            "max_abs_sampled_pp": 10.11,
+            "sampling_noise_share": -1.14
+          },
+          {
+            "cell": "race=Hispanic",
+            "n_synth": 187,
+            "n_pew": 1054,
+            "max_abs_expected_pp": 13.02,
+            "max_abs_sampled_pp": 10.2,
+            "sampling_noise_share": -2.83
+          },
+          {
+            "cell": "race=White-NH",
+            "n_synth": 592,
+            "n_pew": 6594,
+            "max_abs_expected_pp": 11.07,
+            "max_abs_sampled_pp": 14.27,
+            "sampling_noise_share": 3.2
+          }
+        ],
+        "education": [
+          {
+            "cell": "education=BA+",
+            "n_synth": 304,
+            "n_pew": 4648,
+            "max_abs_expected_pp": 11.86,
+            "max_abs_sampled_pp": 11.6,
+            "sampling_noise_share": -0.26
+          },
+          {
+            "cell": "education=HS",
+            "n_synth": 379,
+            "n_pew": 2023,
+            "max_abs_expected_pp": 11.17,
+            "max_abs_sampled_pp": 15.66,
+            "sampling_noise_share": 4.49
+          },
+          {
+            "cell": "education=SomeCollege/AA",
+            "n_synth": 225,
+            "n_pew": 2889,
+            "max_abs_expected_pp": 8.98,
+            "max_abs_sampled_pp": 5.62,
+            "sampling_noise_share": -3.36
+          }
+        ],
+        "party": [
+          {
+            "cell": "party=D",
+            "n_synth": 490,
+            "n_pew": 4945,
+            "max_abs_expected_pp": 12.51,
+            "max_abs_sampled_pp": 13.29,
+            "sampling_noise_share": 0.78
+          },
+          {
+            "cell": "party=I",
+            "n_synth": 67,
+            "n_pew": 200,
+            "max_abs_expected_pp": 11.4,
+            "max_abs_sampled_pp": 11.49,
+            "sampling_noise_share": 0.09
+          },
+          {
+            "cell": "party=R",
+            "n_synth": 443,
+            "n_pew": 4436,
+            "max_abs_expected_pp": 8.72,
+            "max_abs_sampled_pp": 11.86,
+            "sampling_noise_share": 3.14
+          }
+        ]
+      },
+      "worst_expected_cells_top5": [
+        {
+          "axis": "age",
+          "cell": "age=45-64",
+          "n_synth": 296,
+          "n_pew": 2599,
+          "max_abs_expected_pp": 15.62,
+          "max_abs_sampled_pp": 16.56,
+          "sampling_noise_share": 0.94
+        },
+        {
+          "axis": "age",
+          "cell": "age=65+",
+          "n_synth": 213,
+          "n_pew": 2943,
+          "max_abs_expected_pp": 14.39,
+          "max_abs_sampled_pp": 16.58,
+          "sampling_noise_share": 2.19
+        },
+        {
+          "axis": "race",
+          "cell": "race=Hispanic",
+          "n_synth": 187,
+          "n_pew": 1054,
+          "max_abs_expected_pp": 13.02,
+          "max_abs_sampled_pp": 10.2,
+          "sampling_noise_share": -2.83
+        },
+        {
+          "axis": "party",
+          "cell": "party=D",
+          "n_synth": 490,
+          "n_pew": 4945,
+          "max_abs_expected_pp": 12.51,
+          "max_abs_sampled_pp": 13.29,
+          "sampling_noise_share": 0.78
+        },
+        {
+          "axis": "education",
+          "cell": "education=BA+",
+          "n_synth": 304,
+          "n_pew": 4648,
+          "max_abs_expected_pp": 11.86,
+          "max_abs_sampled_pp": 11.6,
+          "sampling_noise_share": -0.26
+        }
+      ]
+    }
+  },
+  "extended_axis_breakdown": {
+    "Q7_covid_school_closures": {
+      "religion": [
+        {
+          "cell": "religion=protestant_evangelical",
+          "n_synth": 241,
+          "max_abs_pp_vs_pew_topline": 14.58,
+          "deltas_pp": {
+            "Too long": 9.24,
+            "Not long enough": -1.26,
+            "About the right amount of time": -14.58,
+            "K-12 public schools in my area were never closed": 3.22,
+            "Not sure": 3.37
+          }
+        },
+        {
+          "cell": "religion=agnostic",
+          "n_synth": 72,
+          "max_abs_pp_vs_pew_topline": 13.88,
+          "deltas_pp": {
+            "Too long": 8.37,
+            "Not long enough": -1.49,
+            "About the right amount of time": -13.88,
+            "K-12 public schools in my area were never closed": 2.91,
+            "Not sure": 4.09
+          }
+        },
+        {
+          "cell": "religion=atheist",
+          "n_synth": 41,
+          "max_abs_pp_vs_pew_topline": 13.88,
+          "deltas_pp": {
+            "Too long": 9.83,
+            "Not long enough": -0.72,
+            "About the right amount of time": -13.88,
+            "K-12 public schools in my area were never closed": 2.6,
+            "Not sure": 2.16
+          }
+        },
+        {
+          "cell": "religion=protestant_mainline",
+          "n_synth": 109,
+          "max_abs_pp_vs_pew_topline": 13.12,
+          "deltas_pp": {
+            "Too long": 8.63,
+            "Not long enough": -1.5,
+            "About the right amount of time": -13.12,
+            "K-12 public schools in my area were never closed": 2.91,
+            "Not sure": 3.09
+          }
+        },
+        {
+          "cell": "religion=other_christian_orthodox",
+          "n_synth": 22,
+          "max_abs_pp_vs_pew_topline": 13.0,
+          "deltas_pp": {
+            "Too long": 7.62,
+            "Not long enough": -0.17,
+            "About the right amount of time": -13.0,
+            "K-12 public schools in my area were never closed": 2.72,
+            "Not sure": 2.83
+          }
+        },
+        {
+          "cell": "religion=muslim",
+          "n_synth": 15,
+          "max_abs_pp_vs_pew_topline": 11.79,
+          "deltas_pp": {
+            "Too long": 0.26,
+            "Not long enough": 1.52,
+            "About the right amount of time": -11.79,
+            "K-12 public schools in my area were never closed": 3.15,
+            "Not sure": 6.86
+          }
+        },
+        {
+          "cell": "religion=catholic",
+          "n_synth": 204,
+          "max_abs_pp_vs_pew_topline": 11.73,
+          "deltas_pp": {
+            "Too long": 3.33,
+            "Not long enough": -0.28,
+            "About the right amount of time": -11.73,
+            "K-12 public schools in my area were never closed": 3.16,
+            "Not sure": 5.52
+          }
+        },
+        {
+          "cell": "religion=protestant_historically_black",
+          "n_synth": 54,
+          "max_abs_pp_vs_pew_topline": 11.15,
+          "deltas_pp": {
+            "Too long": -11.15,
+            "Not long enough": 4.46,
+            "About the right amount of time": -6.96,
+            "K-12 public schools in my area were never closed": 2.64,
+            "Not sure": 11.02
+          }
+        },
+        {
+          "cell": "religion=nothing_in_particular",
+          "n_synth": 179,
+          "max_abs_pp_vs_pew_topline": 11.05,
+          "deltas_pp": {
+            "Too long": 1.8,
+            "Not long enough": 0.88,
+            "About the right amount of time": -11.05,
+            "K-12 public schools in my area were never closed": 2.96,
+            "Not sure": 5.41
+          }
+        }
+      ],
+      "religiosity": [
+        {
+          "cell": "religiosity=weekly+",
+          "n_synth": 318,
+          "max_abs_pp_vs_pew_topline": 12.98,
+          "deltas_pp": {
+            "Too long": 5.74,
+            "Not long enough": -0.19,
+            "About the right amount of time": -12.98,
+            "K-12 public schools in my area were never closed": 3.24,
+            "Not sure": 4.19
+          }
+        },
+        {
+          "cell": "religiosity=rarely",
+          "n_synth": 391,
+          "max_abs_pp_vs_pew_topline": 12.5,
+          "deltas_pp": {
+            "Too long": 4.77,
+            "Not long enough": -0.2,
+            "About the right amount of time": -12.5,
+            "K-12 public schools in my area were never closed": 2.93,
+            "Not sure": 5.0
+          }
+        },
+        {
+          "cell": "religiosity=never",
+          "n_synth": 180,
+          "max_abs_pp_vs_pew_topline": 11.75,
+          "deltas_pp": {
+            "Too long": 4.25,
+            "Not long enough": 0.06,
+            "About the right amount of time": -11.75,
+            "K-12 public schools in my area were never closed": 2.77,
+            "Not sure": 4.67
+          }
+        },
+        {
+          "cell": "religiosity=monthly",
+          "n_synth": 111,
+          "max_abs_pp_vs_pew_topline": 11.63,
+          "deltas_pp": {
+            "Too long": 4.16,
+            "Not long enough": -0.7,
+            "About the right amount of time": -11.63,
+            "K-12 public schools in my area were never closed": 2.97,
+            "Not sure": 5.2
+          }
+        }
+      ],
+      "political_ideology": [
+        {
+          "cell": "political_ideology=very_conservative",
+          "n_synth": 92,
+          "max_abs_pp_vs_pew_topline": 31.81,
+          "deltas_pp": {
+            "Too long": 31.81,
+            "Not long enough": -6.03,
+            "About the right amount of time": -23.84,
+            "K-12 public schools in my area were never closed": 3.13,
+            "Not sure": -5.07
+          }
+        },
+        {
+          "cell": "political_ideology=conservative",
+          "n_synth": 291,
+          "max_abs_pp_vs_pew_topline": 25.56,
+          "deltas_pp": {
+            "Too long": 25.56,
+            "Not long enough": -5.29,
+            "About the right amount of time": -20.69,
+            "K-12 public schools in my area were never closed": 3.3,
+            "Not sure": -2.88
+          }
+        },
+        {
+          "cell": "political_ideology=very_liberal",
+          "n_synth": 93,
+          "max_abs_pp_vs_pew_topline": 22.55,
+          "deltas_pp": {
+            "Too long": -22.55,
+            "Not long enough": 10.4,
+            "About the right amount of time": -2.75,
+            "K-12 public schools in my area were never closed": 2.44,
+            "Not sure": 12.47
+          }
+        },
+        {
+          "cell": "political_ideology=liberal",
+          "n_synth": 161,
+          "max_abs_pp_vs_pew_topline": 17.93,
+          "deltas_pp": {
+            "Too long": -17.93,
+            "Not long enough": 6.26,
+            "About the right amount of time": -2.56,
+            "K-12 public schools in my area were never closed": 2.54,
+            "Not sure": 11.69
+          }
+        },
+        {
+          "cell": "political_ideology=moderate",
+          "n_synth": 363,
+          "max_abs_pp_vs_pew_topline": 9.94,
+          "deltas_pp": {
+            "Too long": -0.8,
+            "Not long enough": -0.38,
+            "About the right amount of time": -9.94,
+            "K-12 public schools in my area were never closed": 3.09,
+            "Not sure": 8.04
+          }
+        }
+      ],
+      "media_diet_primary": [
+        {
+          "cell": "media_diet_primary=x_twitter_news",
+          "n_synth": 20,
+          "max_abs_pp_vs_pew_topline": 15.77,
+          "deltas_pp": {
+            "Too long": 11.95,
+            "Not long enough": -1.28,
+            "About the right amount of time": -15.77,
+            "K-12 public schools in my area were never closed": 3.34,
+            "Not sure": 1.77
+          }
+        },
+        {
+          "cell": "media_diet_primary=youtube_news_or_political_creators",
+          "n_synth": 35,
+          "max_abs_pp_vs_pew_topline": 15.19,
+          "deltas_pp": {
+            "Too long": 11.62,
+            "Not long enough": -1.39,
+            "About the right amount of time": -15.19,
+            "K-12 public schools in my area were never closed": 2.84,
+            "Not sure": 2.12
+          }
+        },
+        {
+          "cell": "media_diet_primary=podcast_political_or_news",
+          "n_synth": 47,
+          "max_abs_pp_vs_pew_topline": 14.6,
+          "deltas_pp": {
+            "Too long": 11.58,
+            "Not long enough": -1.24,
+            "About the right amount of time": -14.6,
+            "K-12 public schools in my area were never closed": 2.78,
+            "Not sure": 1.48
+          }
+        },
+        {
+          "cell": "media_diet_primary=facebook_feed_news",
+          "n_synth": 85,
+          "max_abs_pp_vs_pew_topline": 14.03,
+          "deltas_pp": {
+            "Too long": 6.55,
+            "Not long enough": -0.73,
+            "About the right amount of time": -14.03,
+            "K-12 public schools in my area were never closed": 3.33,
+            "Not sure": 4.88
+          }
+        },
+        {
+          "cell": "media_diet_primary=cable_or_broadcast_tv",
+          "n_synth": 295,
+          "max_abs_pp_vs_pew_topline": 13.82,
+          "deltas_pp": {
+            "Too long": 7.69,
+            "Not long enough": -0.69,
+            "About the right amount of time": -13.82,
+            "K-12 public schools in my area were never closed": 3.1,
+            "Not sure": 3.72
+          }
+        },
+        {
+          "cell": "media_diet_primary=no_news_consumed",
+          "n_synth": 81,
+          "max_abs_pp_vs_pew_topline": 13.58,
+          "deltas_pp": {
+            "Too long": 0.15,
+            "Not long enough": -0.68,
+            "About the right amount of time": -13.58,
+            "K-12 public schools in my area were never closed": 3.49,
+            "Not sure": 10.62
+          }
+        },
+        {
+          "cell": "media_diet_primary=npr_pbs",
+          "n_synth": 48,
+          "max_abs_pp_vs_pew_topline": 12.48,
+          "deltas_pp": {
+            "Too long": 7.64,
+            "Not long enough": -1.07,
+            "About the right amount of time": -12.48,
+            "K-12 public schools in my area were never closed": 2.66,
+            "Not sure": 3.26
+          }
+        },
+        {
+          "cell": "media_diet_primary=print_or_legacy_news_sites",
+          "n_synth": 356,
+          "max_abs_pp_vs_pew_topline": 10.12,
+          "deltas_pp": {
+            "Too long": 1.87,
+            "Not long enough": 0.6,
+            "About the right amount of time": -10.12,
+            "K-12 public schools in my area were never closed": 2.83,
+            "Not sure": 4.82
+          }
+        },
+        {
+          "cell": "media_diet_primary=tiktok_news",
+          "n_synth": 25,
+          "max_abs_pp_vs_pew_topline": 9.26,
+          "deltas_pp": {
+            "Too long": -5.67,
+            "Not long enough": 2.85,
+            "About the right amount of time": -9.26,
+            "K-12 public schools in my area were never closed": 2.92,
+            "Not sure": 9.16
+          }
+        }
+      ],
+      "media_diet_slant": [
+        {
+          "cell": "media_diet_slant=strong_right",
+          "n_synth": 248,
+          "max_abs_pp_vs_pew_topline": 27.78,
+          "deltas_pp": {
+            "Too long": 27.78,
+            "Not long enough": -5.54,
+            "About the right amount of time": -21.83,
+            "K-12 public schools in my area were never closed": 3.29,
+            "Not sure": -3.69
+          }
+        },
+        {
+          "cell": "media_diet_slant=lean_right",
+          "n_synth": 171,
+          "max_abs_pp_vs_pew_topline": 22.27,
+          "deltas_pp": {
+            "Too long": 22.27,
+            "Not long enough": -4.73,
+            "About the right amount of time": -19.3,
+            "K-12 public schools in my area were never closed": 3.26,
+            "Not sure": -1.5
+          }
+        },
+        {
+          "cell": "media_diet_slant=strong_left",
+          "n_synth": 158,
+          "max_abs_pp_vs_pew_topline": 18.15,
+          "deltas_pp": {
+            "Too long": -18.15,
+            "Not long enough": 7.05,
+            "About the right amount of time": -2.81,
+            "K-12 public schools in my area were never closed": 2.73,
+            "Not sure": 11.18
+          }
+        },
+        {
+          "cell": "media_diet_slant=center",
+          "n_synth": 108,
+          "max_abs_pp_vs_pew_topline": 11.35,
+          "deltas_pp": {
+            "Too long": 2.25,
+            "Not long enough": -0.25,
+            "About the right amount of time": -11.35,
+            "K-12 public schools in my area were never closed": 2.95,
+            "Not sure": 6.41
+          }
+        },
+        {
+          "cell": "media_diet_slant=lean_left",
+          "n_synth": 315,
+          "max_abs_pp_vs_pew_topline": 10.87,
+          "deltas_pp": {
+            "Too long": -10.05,
+            "Not long enough": 2.83,
+            "About the right amount of time": -6.45,
+            "K-12 public schools in my area were never closed": 2.8,
+            "Not sure": 10.87
+          }
+        }
+      ],
+      "household_composition": [
+        {
+          "cell": "household_composition=single_no_children",
+          "n_synth": 258,
+          "max_abs_pp_vs_pew_topline": 13.21,
+          "deltas_pp": {
+            "Too long": 3.86,
+            "Not long enough": 0.0,
+            "About the right amount of time": -13.21,
+            "K-12 public schools in my area were never closed": 3.18,
+            "Not sure": 6.17
+          }
+        },
+        {
+          "cell": "household_composition=empty_nest_partnered",
+          "n_synth": 231,
+          "max_abs_pp_vs_pew_topline": 12.93,
+          "deltas_pp": {
+            "Too long": 6.76,
+            "Not long enough": -0.58,
+            "About the right amount of time": -12.93,
+            "K-12 public schools in my area were never closed": 2.89,
+            "Not sure": 3.86
+          }
+        },
+        {
+          "cell": "household_composition=group_quarters",
+          "n_synth": 32,
+          "max_abs_pp_vs_pew_topline": 12.11,
+          "deltas_pp": {
+            "Too long": 0.86,
+            "Not long enough": 1.08,
+            "About the right amount of time": -12.11,
+            "K-12 public schools in my area were never closed": 4.04,
+            "Not sure": 6.13
+          }
+        },
+        {
+          "cell": "household_composition=partnered_no_children",
+          "n_synth": 136,
+          "max_abs_pp_vs_pew_topline": 12.11,
+          "deltas_pp": {
+            "Too long": 4.93,
+            "Not long enough": -0.39,
+            "About the right amount of time": -12.11,
+            "K-12 public schools in my area were never closed": 3.02,
+            "Not sure": 4.55
+          }
+        },
+        {
+          "cell": "household_composition=partnered_with_children",
+          "n_synth": 196,
+          "max_abs_pp_vs_pew_topline": 11.87,
+          "deltas_pp": {
+            "Too long": 6.07,
+            "Not long enough": -0.58,
+            "About the right amount of time": -11.87,
+            "K-12 public schools in my area were never closed": 2.91,
+            "Not sure": 3.47
+          }
+        },
+        {
+          "cell": "household_composition=single_with_children",
+          "n_synth": 35,
+          "max_abs_pp_vs_pew_topline": 11.83,
+          "deltas_pp": {
+            "Too long": 4.47,
+            "Not long enough": 0.11,
+            "About the right amount of time": -11.83,
+            "K-12 public schools in my area were never closed": 3.03,
+            "Not sure": 4.21
+          }
+        },
+        {
+          "cell": "household_composition=multi_generational",
+          "n_synth": 112,
+          "max_abs_pp_vs_pew_topline": 11.15,
+          "deltas_pp": {
+            "Too long": 2.73,
+            "Not long enough": 0.53,
+            "About the right amount of time": -11.15,
+            "K-12 public schools in my area were never closed": 2.68,
+            "Not sure": 5.21
+          }
+        }
+      ],
+      "life_stage_recent": [
+        {
+          "cell": "life_stage_recent=recently_relocated_metro",
+          "n_synth": 122,
+          "max_abs_pp_vs_pew_topline": 13.77,
+          "deltas_pp": {
+            "Too long": 1.71,
+            "Not long enough": 0.81,
+            "About the right amount of time": -13.77,
+            "K-12 public schools in my area were never closed": 3.53,
+            "Not sure": 7.71
+          }
+        },
+        {
+          "cell": "life_stage_recent=no_major_transition",
+          "n_synth": 841,
+          "max_abs_pp_vs_pew_topline": 12.31,
+          "deltas_pp": {
+            "Too long": 5.58,
+            "Not long enough": -0.41,
+            "About the right amount of time": -12.31,
+            "K-12 public schools in my area were never closed": 2.92,
+            "Not sure": 4.23
+          }
+        },
+        {
+          "cell": "life_stage_recent=recent_parent_under_2yr",
+          "n_synth": 19,
+          "max_abs_pp_vs_pew_topline": 8.09,
+          "deltas_pp": {
+            "Too long": -5.18,
+            "Not long enough": 2.07,
+            "About the right amount of time": -8.04,
+            "K-12 public schools in my area were never closed": 3.05,
+            "Not sure": 8.09
+          }
+        }
+      ],
+      "is_outlier": [
+        {
+          "cell": "is_outlier=True",
+          "n_synth": 70,
+          "max_abs_pp_vs_pew_topline": 14.39,
+          "deltas_pp": {
+            "Too long": 10.67,
+            "Not long enough": -1.22,
+            "About the right amount of time": -14.39,
+            "K-12 public schools in my area were never closed": 2.3,
+            "Not sure": 2.64
+          }
+        },
+        {
+          "cell": "is_outlier=False",
+          "n_synth": 930,
+          "max_abs_pp_vs_pew_topline": 12.27,
+          "deltas_pp": {
+            "Too long": 4.47,
+            "Not long enough": -0.13,
+            "About the right amount of time": -12.27,
+            "K-12 public schools in my area were never closed": 3.06,
+            "Not sure": 4.86
+          }
+        }
+      ]
+    },
+    "Q8_covid_updated_vaccine": {
+      "religion": [
+        {
+          "cell": "religion=protestant_historically_black",
+          "n_synth": 54,
+          "max_abs_pp_vs_pew_topline": 27.56,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 7.46,
+            "Probably not get an updated vaccine": -27.56,
+            "Have already received an updated vaccine": 20.1
+          }
+        },
+        {
+          "cell": "religion=other_christian_orthodox",
+          "n_synth": 22,
+          "max_abs_pp_vs_pew_topline": 20.48,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -2.48,
+            "Probably not get an updated vaccine": -18.0,
+            "Have already received an updated vaccine": 20.48
+          }
+        },
+        {
+          "cell": "religion=protestant_mainline",
+          "n_synth": 109,
+          "max_abs_pp_vs_pew_topline": 18.55,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -1.46,
+            "Probably not get an updated vaccine": -17.09,
+            "Have already received an updated vaccine": 18.55
+          }
+        },
+        {
+          "cell": "religion=nothing_in_particular",
+          "n_synth": 179,
+          "max_abs_pp_vs_pew_topline": 18.24,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 0.79,
+            "Probably not get an updated vaccine": -18.24,
+            "Have already received an updated vaccine": 17.46
+          }
+        },
+        {
+          "cell": "religion=catholic",
+          "n_synth": 204,
+          "max_abs_pp_vs_pew_topline": 17.97,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 2.52,
+            "Probably not get an updated vaccine": -17.97,
+            "Have already received an updated vaccine": 15.45
+          }
+        },
+        {
+          "cell": "religion=muslim",
+          "n_synth": 15,
+          "max_abs_pp_vs_pew_topline": 15.43,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 3.23,
+            "Probably not get an updated vaccine": -15.43,
+            "Have already received an updated vaccine": 12.2
+          }
+        },
+        {
+          "cell": "religion=agnostic",
+          "n_synth": 72,
+          "max_abs_pp_vs_pew_topline": 14.09,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -0.89,
+            "Probably not get an updated vaccine": -13.2,
+            "Have already received an updated vaccine": 14.09
+          }
+        },
+        {
+          "cell": "religion=atheist",
+          "n_synth": 41,
+          "max_abs_pp_vs_pew_topline": 12.59,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -0.73,
+            "Probably not get an updated vaccine": -11.86,
+            "Have already received an updated vaccine": 12.59
+          }
+        },
+        {
+          "cell": "religion=protestant_evangelical",
+          "n_synth": 241,
+          "max_abs_pp_vs_pew_topline": 12.36,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -2.12,
+            "Probably not get an updated vaccine": -10.24,
+            "Have already received an updated vaccine": 12.36
+          }
+        }
+      ],
+      "religiosity": [
+        {
+          "cell": "religiosity=weekly+",
+          "n_synth": 318,
+          "max_abs_pp_vs_pew_topline": 17.28,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -0.0,
+            "Probably not get an updated vaccine": -17.28,
+            "Have already received an updated vaccine": 17.28
+          }
+        },
+        {
+          "cell": "religiosity=monthly",
+          "n_synth": 111,
+          "max_abs_pp_vs_pew_topline": 16.89,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 1.1,
+            "Probably not get an updated vaccine": -16.89,
+            "Have already received an updated vaccine": 15.79
+          }
+        },
+        {
+          "cell": "religiosity=never",
+          "n_synth": 180,
+          "max_abs_pp_vs_pew_topline": 15.22,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 0.01,
+            "Probably not get an updated vaccine": -15.22,
+            "Have already received an updated vaccine": 15.22
+          }
+        },
+        {
+          "cell": "religiosity=rarely",
+          "n_synth": 391,
+          "max_abs_pp_vs_pew_topline": 15.21,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 0.89,
+            "Probably not get an updated vaccine": -15.21,
+            "Have already received an updated vaccine": 14.32
+          }
+        }
+      ],
+      "political_ideology": [
+        {
+          "cell": "political_ideology=very_liberal",
+          "n_synth": 93,
+          "max_abs_pp_vs_pew_topline": 41.27,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 9.25,
+            "Probably not get an updated vaccine": -41.27,
+            "Have already received an updated vaccine": 32.02
+          }
+        },
+        {
+          "cell": "political_ideology=liberal",
+          "n_synth": 161,
+          "max_abs_pp_vs_pew_topline": 38.05,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 9.35,
+            "Probably not get an updated vaccine": -38.05,
+            "Have already received an updated vaccine": 28.7
+          }
+        },
+        {
+          "cell": "political_ideology=moderate",
+          "n_synth": 363,
+          "max_abs_pp_vs_pew_topline": 23.06,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 4.83,
+            "Probably not get an updated vaccine": -23.06,
+            "Have already received an updated vaccine": 18.22
+          }
+        },
+        {
+          "cell": "political_ideology=very_conservative",
+          "n_synth": 92,
+          "max_abs_pp_vs_pew_topline": 11.84,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -11.84,
+            "Probably not get an updated vaccine": 11.25,
+            "Have already received an updated vaccine": 0.58
+          }
+        },
+        {
+          "cell": "political_ideology=conservative",
+          "n_synth": 291,
+          "max_abs_pp_vs_pew_topline": 9.02,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -9.02,
+            "Probably not get an updated vaccine": 4.83,
+            "Have already received an updated vaccine": 4.2
+          }
+        }
+      ],
+      "media_diet_primary": [
+        {
+          "cell": "media_diet_primary=print_or_legacy_news_sites",
+          "n_synth": 356,
+          "max_abs_pp_vs_pew_topline": 22.08,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 2.33,
+            "Probably not get an updated vaccine": -22.08,
+            "Have already received an updated vaccine": 19.75
+          }
+        },
+        {
+          "cell": "media_diet_primary=tiktok_news",
+          "n_synth": 25,
+          "max_abs_pp_vs_pew_topline": 21.32,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 3.57,
+            "Probably not get an updated vaccine": -21.32,
+            "Have already received an updated vaccine": 17.75
+          }
+        },
+        {
+          "cell": "media_diet_primary=npr_pbs",
+          "n_synth": 48,
+          "max_abs_pp_vs_pew_topline": 18.87,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 1.9,
+            "Probably not get an updated vaccine": -18.87,
+            "Have already received an updated vaccine": 16.97
+          }
+        },
+        {
+          "cell": "media_diet_primary=podcast_political_or_news",
+          "n_synth": 47,
+          "max_abs_pp_vs_pew_topline": 15.12,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -3.73,
+            "Probably not get an updated vaccine": -11.39,
+            "Have already received an updated vaccine": 15.12
+          }
+        },
+        {
+          "cell": "media_diet_primary=cable_or_broadcast_tv",
+          "n_synth": 295,
+          "max_abs_pp_vs_pew_topline": 13.32,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -0.63,
+            "Probably not get an updated vaccine": -12.69,
+            "Have already received an updated vaccine": 13.32
+          }
+        },
+        {
+          "cell": "media_diet_primary=no_news_consumed",
+          "n_synth": 81,
+          "max_abs_pp_vs_pew_topline": 13.07,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 1.07,
+            "Probably not get an updated vaccine": -13.07,
+            "Have already received an updated vaccine": 12.0
+          }
+        },
+        {
+          "cell": "media_diet_primary=facebook_feed_news",
+          "n_synth": 85,
+          "max_abs_pp_vs_pew_topline": 11.42,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -1.61,
+            "Probably not get an updated vaccine": -9.81,
+            "Have already received an updated vaccine": 11.42
+          }
+        },
+        {
+          "cell": "media_diet_primary=x_twitter_news",
+          "n_synth": 20,
+          "max_abs_pp_vs_pew_topline": 11.04,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -1.08,
+            "Probably not get an updated vaccine": -9.96,
+            "Have already received an updated vaccine": 11.04
+          }
+        },
+        {
+          "cell": "media_diet_primary=youtube_news_or_political_creators",
+          "n_synth": 35,
+          "max_abs_pp_vs_pew_topline": 9.87,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -3.12,
+            "Probably not get an updated vaccine": -6.75,
+            "Have already received an updated vaccine": 9.87
+          }
+        }
+      ],
+      "media_diet_slant": [
+        {
+          "cell": "media_diet_slant=strong_left",
+          "n_synth": 158,
+          "max_abs_pp_vs_pew_topline": 37.65,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 9.78,
+            "Probably not get an updated vaccine": -37.65,
+            "Have already received an updated vaccine": 27.87
+          }
+        },
+        {
+          "cell": "media_diet_slant=lean_left",
+          "n_synth": 315,
+          "max_abs_pp_vs_pew_topline": 30.39,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 7.44,
+            "Probably not get an updated vaccine": -30.39,
+            "Have already received an updated vaccine": 22.94
+          }
+        },
+        {
+          "cell": "media_diet_slant=center",
+          "n_synth": 108,
+          "max_abs_pp_vs_pew_topline": 18.76,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 1.07,
+            "Probably not get an updated vaccine": -18.76,
+            "Have already received an updated vaccine": 17.69
+          }
+        },
+        {
+          "cell": "media_diet_slant=strong_right",
+          "n_synth": 248,
+          "max_abs_pp_vs_pew_topline": 9.69,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -9.69,
+            "Probably not get an updated vaccine": 5.96,
+            "Have already received an updated vaccine": 3.73
+          }
+        },
+        {
+          "cell": "media_diet_slant=lean_right",
+          "n_synth": 171,
+          "max_abs_pp_vs_pew_topline": 6.58,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -6.58,
+            "Probably not get an updated vaccine": 0.01,
+            "Have already received an updated vaccine": 6.57
+          }
+        }
+      ],
+      "household_composition": [
+        {
+          "cell": "household_composition=empty_nest_partnered",
+          "n_synth": 231,
+          "max_abs_pp_vs_pew_topline": 21.98,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -1.41,
+            "Probably not get an updated vaccine": -20.56,
+            "Have already received an updated vaccine": 21.98
+          }
+        },
+        {
+          "cell": "household_composition=multi_generational",
+          "n_synth": 112,
+          "max_abs_pp_vs_pew_topline": 17.24,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 1.02,
+            "Probably not get an updated vaccine": -17.24,
+            "Have already received an updated vaccine": 16.22
+          }
+        },
+        {
+          "cell": "household_composition=group_quarters",
+          "n_synth": 32,
+          "max_abs_pp_vs_pew_topline": 15.59,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 1.46,
+            "Probably not get an updated vaccine": -15.59,
+            "Have already received an updated vaccine": 14.13
+          }
+        },
+        {
+          "cell": "household_composition=single_no_children",
+          "n_synth": 258,
+          "max_abs_pp_vs_pew_topline": 14.84,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 0.53,
+            "Probably not get an updated vaccine": -14.84,
+            "Have already received an updated vaccine": 14.31
+          }
+        },
+        {
+          "cell": "household_composition=partnered_no_children",
+          "n_synth": 136,
+          "max_abs_pp_vs_pew_topline": 14.54,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 1.43,
+            "Probably not get an updated vaccine": -14.54,
+            "Have already received an updated vaccine": 13.11
+          }
+        },
+        {
+          "cell": "household_composition=single_with_children",
+          "n_synth": 35,
+          "max_abs_pp_vs_pew_topline": 13.93,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 2.41,
+            "Probably not get an updated vaccine": -13.93,
+            "Have already received an updated vaccine": 11.52
+          }
+        },
+        {
+          "cell": "household_composition=partnered_with_children",
+          "n_synth": 196,
+          "max_abs_pp_vs_pew_topline": 13.02,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 1.18,
+            "Probably not get an updated vaccine": -13.02,
+            "Have already received an updated vaccine": 11.84
+          }
+        }
+      ],
+      "life_stage_recent": [
+        {
+          "cell": "life_stage_recent=recent_parent_under_2yr",
+          "n_synth": 19,
+          "max_abs_pp_vs_pew_topline": 21.6,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 6.29,
+            "Probably not get an updated vaccine": -21.6,
+            "Have already received an updated vaccine": 15.31
+          }
+        },
+        {
+          "cell": "life_stage_recent=recently_relocated_metro",
+          "n_synth": 122,
+          "max_abs_pp_vs_pew_topline": 16.71,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 3.75,
+            "Probably not get an updated vaccine": -16.71,
+            "Have already received an updated vaccine": 12.96
+          }
+        },
+        {
+          "cell": "life_stage_recent=no_major_transition",
+          "n_synth": 841,
+          "max_abs_pp_vs_pew_topline": 16.06,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -0.14,
+            "Probably not get an updated vaccine": -15.93,
+            "Have already received an updated vaccine": 16.06
+          }
+        }
+      ],
+      "is_outlier": [
+        {
+          "cell": "is_outlier=False",
+          "n_synth": 930,
+          "max_abs_pp_vs_pew_topline": 16.3,
+          "deltas_pp": {
+            "Probably get an updated vaccine": 0.51,
+            "Probably not get an updated vaccine": -16.3,
+            "Have already received an updated vaccine": 15.79
+          }
+        },
+        {
+          "cell": "is_outlier=True",
+          "n_synth": 70,
+          "max_abs_pp_vs_pew_topline": 13.02,
+          "deltas_pp": {
+            "Probably get an updated vaccine": -0.07,
+            "Probably not get an updated vaccine": -12.95,
+            "Have already received an updated vaccine": 13.02
+          }
+        }
+      ]
+    },
+    "Q9_astrology_belief": {
+      "religion": [
+        {
+          "cell": "religion=atheist",
+          "n_synth": 41,
+          "max_abs_pp_vs_pew_topline": 19.74,
+          "deltas_pp": {
+            "Yes, believe in": -19.74,
+            "No, don't believe": 19.74
+          }
+        },
+        {
+          "cell": "religion=other_christian_orthodox",
+          "n_synth": 22,
+          "max_abs_pp_vs_pew_topline": 16.78,
+          "deltas_pp": {
+            "Yes, believe in": -16.78,
+            "No, don't believe": 16.78
+          }
+        },
+        {
+          "cell": "religion=protestant_evangelical",
+          "n_synth": 241,
+          "max_abs_pp_vs_pew_topline": 15.87,
+          "deltas_pp": {
+            "Yes, believe in": -15.87,
+            "No, don't believe": 15.87
+          }
+        },
+        {
+          "cell": "religion=protestant_mainline",
+          "n_synth": 109,
+          "max_abs_pp_vs_pew_topline": 15.25,
+          "deltas_pp": {
+            "Yes, believe in": -15.25,
+            "No, don't believe": 15.25
+          }
+        },
+        {
+          "cell": "religion=agnostic",
+          "n_synth": 72,
+          "max_abs_pp_vs_pew_topline": 15.15,
+          "deltas_pp": {
+            "Yes, believe in": -15.15,
+            "No, don't believe": 15.15
+          }
+        },
+        {
+          "cell": "religion=muslim",
+          "n_synth": 15,
+          "max_abs_pp_vs_pew_topline": 14.68,
+          "deltas_pp": {
+            "Yes, believe in": -14.68,
+            "No, don't believe": 14.68
+          }
+        },
+        {
+          "cell": "religion=nothing_in_particular",
+          "n_synth": 179,
+          "max_abs_pp_vs_pew_topline": 11.01,
+          "deltas_pp": {
+            "Yes, believe in": -11.01,
+            "No, don't believe": 11.01
+          }
+        },
+        {
+          "cell": "religion=catholic",
+          "n_synth": 204,
+          "max_abs_pp_vs_pew_topline": 10.07,
+          "deltas_pp": {
+            "Yes, believe in": -10.07,
+            "No, don't believe": 10.07
+          }
+        },
+        {
+          "cell": "religion=protestant_historically_black",
+          "n_synth": 54,
+          "max_abs_pp_vs_pew_topline": 5.36,
+          "deltas_pp": {
+            "Yes, believe in": -5.36,
+            "No, don't believe": 5.36
+          }
+        }
+      ],
+      "religiosity": [
+        {
+          "cell": "religiosity=weekly+",
+          "n_synth": 318,
+          "max_abs_pp_vs_pew_topline": 14.58,
+          "deltas_pp": {
+            "Yes, believe in": -14.58,
+            "No, don't believe": 14.58
+          }
+        },
+        {
+          "cell": "religiosity=never",
+          "n_synth": 180,
+          "max_abs_pp_vs_pew_topline": 13.63,
+          "deltas_pp": {
+            "Yes, believe in": -13.63,
+            "No, don't believe": 13.63
+          }
+        },
+        {
+          "cell": "religiosity=monthly",
+          "n_synth": 111,
+          "max_abs_pp_vs_pew_topline": 12.06,
+          "deltas_pp": {
+            "Yes, believe in": -12.06,
+            "No, don't believe": 12.06
+          }
+        },
+        {
+          "cell": "religiosity=rarely",
+          "n_synth": 391,
+          "max_abs_pp_vs_pew_topline": 10.98,
+          "deltas_pp": {
+            "Yes, believe in": -10.98,
+            "No, don't believe": 10.98
+          }
+        }
+      ],
+      "political_ideology": [
+        {
+          "cell": "political_ideology=very_conservative",
+          "n_synth": 92,
+          "max_abs_pp_vs_pew_topline": 19.75,
+          "deltas_pp": {
+            "Yes, believe in": -19.75,
+            "No, don't believe": 19.75
+          }
+        },
+        {
+          "cell": "political_ideology=conservative",
+          "n_synth": 291,
+          "max_abs_pp_vs_pew_topline": 18.43,
+          "deltas_pp": {
+            "Yes, believe in": -18.43,
+            "No, don't believe": 18.43
+          }
+        },
+        {
+          "cell": "political_ideology=moderate",
+          "n_synth": 363,
+          "max_abs_pp_vs_pew_topline": 10.62,
+          "deltas_pp": {
+            "Yes, believe in": -10.62,
+            "No, don't believe": 10.62
+          }
+        },
+        {
+          "cell": "political_ideology=liberal",
+          "n_synth": 161,
+          "max_abs_pp_vs_pew_topline": 6.9,
+          "deltas_pp": {
+            "Yes, believe in": -6.9,
+            "No, don't believe": 6.9
+          }
+        },
+        {
+          "cell": "political_ideology=very_liberal",
+          "n_synth": 93,
+          "max_abs_pp_vs_pew_topline": 6.68,
+          "deltas_pp": {
+            "Yes, believe in": -6.68,
+            "No, don't believe": 6.68
+          }
+        }
+      ],
+      "media_diet_primary": [
+        {
+          "cell": "media_diet_primary=npr_pbs",
+          "n_synth": 48,
+          "max_abs_pp_vs_pew_topline": 16.72,
+          "deltas_pp": {
+            "Yes, believe in": -16.72,
+            "No, don't believe": 16.72
+          }
+        },
+        {
+          "cell": "media_diet_primary=podcast_political_or_news",
+          "n_synth": 47,
+          "max_abs_pp_vs_pew_topline": 14.44,
+          "deltas_pp": {
+            "Yes, believe in": -14.44,
+            "No, don't believe": 14.44
+          }
+        },
+        {
+          "cell": "media_diet_primary=youtube_news_or_political_creators",
+          "n_synth": 35,
+          "max_abs_pp_vs_pew_topline": 14.15,
+          "deltas_pp": {
+            "Yes, believe in": -14.15,
+            "No, don't believe": 14.15
+          }
+        },
+        {
+          "cell": "media_diet_primary=print_or_legacy_news_sites",
+          "n_synth": 356,
+          "max_abs_pp_vs_pew_topline": 14.14,
+          "deltas_pp": {
+            "Yes, believe in": -14.14,
+            "No, don't believe": 14.14
+          }
+        },
+        {
+          "cell": "media_diet_primary=x_twitter_news",
+          "n_synth": 20,
+          "max_abs_pp_vs_pew_topline": 12.4,
+          "deltas_pp": {
+            "Yes, believe in": -12.4,
+            "No, don't believe": 12.4
+          }
+        },
+        {
+          "cell": "media_diet_primary=cable_or_broadcast_tv",
+          "n_synth": 295,
+          "max_abs_pp_vs_pew_topline": 12.22,
+          "deltas_pp": {
+            "Yes, believe in": -12.22,
+            "No, don't believe": 12.22
+          }
+        },
+        {
+          "cell": "media_diet_primary=facebook_feed_news",
+          "n_synth": 85,
+          "max_abs_pp_vs_pew_topline": 10.38,
+          "deltas_pp": {
+            "Yes, believe in": -10.38,
+            "No, don't believe": 10.38
+          }
+        },
+        {
+          "cell": "media_diet_primary=no_news_consumed",
+          "n_synth": 81,
+          "max_abs_pp_vs_pew_topline": 8.61,
+          "deltas_pp": {
+            "Yes, believe in": -8.61,
+            "No, don't believe": 8.61
+          }
+        },
+        {
+          "cell": "media_diet_primary=tiktok_news",
+          "n_synth": 25,
+          "max_abs_pp_vs_pew_topline": 6.45,
+          "deltas_pp": {
+            "Yes, believe in": -6.45,
+            "No, don't believe": 6.45
+          }
+        }
+      ],
+      "media_diet_slant": [
+        {
+          "cell": "media_diet_slant=strong_right",
+          "n_synth": 248,
+          "max_abs_pp_vs_pew_topline": 18.74,
+          "deltas_pp": {
+            "Yes, believe in": -18.74,
+            "No, don't believe": 18.74
+          }
+        },
+        {
+          "cell": "media_diet_slant=lean_right",
+          "n_synth": 171,
+          "max_abs_pp_vs_pew_topline": 17.41,
+          "deltas_pp": {
+            "Yes, believe in": -17.41,
+            "No, don't believe": 17.41
+          }
+        },
+        {
+          "cell": "media_diet_slant=center",
+          "n_synth": 108,
+          "max_abs_pp_vs_pew_topline": 13.13,
+          "deltas_pp": {
+            "Yes, believe in": -13.13,
+            "No, don't believe": 13.13
+          }
+        },
+        {
+          "cell": "media_diet_slant=lean_left",
+          "n_synth": 315,
+          "max_abs_pp_vs_pew_topline": 8.04,
+          "deltas_pp": {
+            "Yes, believe in": -8.04,
+            "No, don't believe": 8.04
+          }
+        },
+        {
+          "cell": "media_diet_slant=strong_left",
+          "n_synth": 158,
+          "max_abs_pp_vs_pew_topline": 7.24,
+          "deltas_pp": {
+            "Yes, believe in": -7.24,
+            "No, don't believe": 7.24
+          }
+        }
+      ],
+      "household_composition": [
+        {
+          "cell": "household_composition=empty_nest_partnered",
+          "n_synth": 231,
+          "max_abs_pp_vs_pew_topline": 17.36,
+          "deltas_pp": {
+            "Yes, believe in": -17.36,
+            "No, don't believe": 17.36
+          }
+        },
+        {
+          "cell": "household_composition=single_no_children",
+          "n_synth": 258,
+          "max_abs_pp_vs_pew_topline": 12.06,
+          "deltas_pp": {
+            "Yes, believe in": -12.06,
+            "No, don't believe": 12.06
+          }
+        },
+        {
+          "cell": "household_composition=partnered_no_children",
+          "n_synth": 136,
+          "max_abs_pp_vs_pew_topline": 11.83,
+          "deltas_pp": {
+            "Yes, believe in": -11.83,
+            "No, don't believe": 11.83
+          }
+        },
+        {
+          "cell": "household_composition=multi_generational",
+          "n_synth": 112,
+          "max_abs_pp_vs_pew_topline": 11.46,
+          "deltas_pp": {
+            "Yes, believe in": -11.46,
+            "No, don't believe": 11.46
+          }
+        },
+        {
+          "cell": "household_composition=group_quarters",
+          "n_synth": 32,
+          "max_abs_pp_vs_pew_topline": 10.67,
+          "deltas_pp": {
+            "Yes, believe in": -10.67,
+            "No, don't believe": 10.67
+          }
+        },
+        {
+          "cell": "household_composition=partnered_with_children",
+          "n_synth": 196,
+          "max_abs_pp_vs_pew_topline": 10.6,
+          "deltas_pp": {
+            "Yes, believe in": -10.6,
+            "No, don't believe": 10.6
+          }
+        },
+        {
+          "cell": "household_composition=single_with_children",
+          "n_synth": 35,
+          "max_abs_pp_vs_pew_topline": 7.65,
+          "deltas_pp": {
+            "Yes, believe in": -7.65,
+            "No, don't believe": 7.65
+          }
+        }
+      ],
+      "life_stage_recent": [
+        {
+          "cell": "life_stage_recent=no_major_transition",
+          "n_synth": 841,
+          "max_abs_pp_vs_pew_topline": 13.53,
+          "deltas_pp": {
+            "Yes, believe in": -13.53,
+            "No, don't believe": 13.53
+          }
+        },
+        {
+          "cell": "life_stage_recent=recently_relocated_metro",
+          "n_synth": 122,
+          "max_abs_pp_vs_pew_topline": 8.77,
+          "deltas_pp": {
+            "Yes, believe in": -8.77,
+            "No, don't believe": 8.77
+          }
+        },
+        {
+          "cell": "life_stage_recent=recent_parent_under_2yr",
+          "n_synth": 19,
+          "max_abs_pp_vs_pew_topline": 0.92,
+          "deltas_pp": {
+            "Yes, believe in": -0.92,
+            "No, don't believe": 0.92
+          }
+        }
+      ],
+      "is_outlier": [
+        {
+          "cell": "is_outlier=True",
+          "n_synth": 70,
+          "max_abs_pp_vs_pew_topline": 17.51,
+          "deltas_pp": {
+            "Yes, believe in": -17.51,
+            "No, don't believe": 17.51
+          }
+        },
+        {
+          "cell": "is_outlier=False",
+          "n_synth": 930,
+          "max_abs_pp_vs_pew_topline": 12.36,
+          "deltas_pp": {
+            "Yes, believe in": -12.36,
+            "No, don't believe": 12.36
+          }
+        }
+      ]
+    },
+    "Q11_police_confidence": {
+      "religion": [
+        {
+          "cell": "religion=protestant_historically_black",
+          "n_synth": 54,
+          "max_abs_pp_vs_pew_topline": 20.47,
+          "deltas_pp": {
+            "A great deal of confidence": -11.91,
+            "A fair amount of confidence": -20.47,
+            "Not too much confidence": 19.59,
+            "No confidence at all": 12.79
+          }
+        },
+        {
+          "cell": "religion=muslim",
+          "n_synth": 15,
+          "max_abs_pp_vs_pew_topline": 14.92,
+          "deltas_pp": {
+            "A great deal of confidence": -2.75,
+            "A fair amount of confidence": -14.92,
+            "Not too much confidence": 10.52,
+            "No confidence at all": 7.16
+          }
+        },
+        {
+          "cell": "religion=nothing_in_particular",
+          "n_synth": 179,
+          "max_abs_pp_vs_pew_topline": 12.58,
+          "deltas_pp": {
+            "A great deal of confidence": -1.68,
+            "A fair amount of confidence": -12.58,
+            "Not too much confidence": 9.23,
+            "No confidence at all": 5.04
+          }
+        },
+        {
+          "cell": "religion=protestant_evangelical",
+          "n_synth": 241,
+          "max_abs_pp_vs_pew_topline": 10.18,
+          "deltas_pp": {
+            "A great deal of confidence": 7.15,
+            "A fair amount of confidence": -10.18,
+            "Not too much confidence": 2.04,
+            "No confidence at all": 1.0
+          }
+        },
+        {
+          "cell": "religion=atheist",
+          "n_synth": 41,
+          "max_abs_pp_vs_pew_topline": 10.01,
+          "deltas_pp": {
+            "A great deal of confidence": 1.23,
+            "A fair amount of confidence": -10.01,
+            "Not too much confidence": 6.28,
+            "No confidence at all": 2.5
+          }
+        },
+        {
+          "cell": "religion=other_christian_orthodox",
+          "n_synth": 22,
+          "max_abs_pp_vs_pew_topline": 10.01,
+          "deltas_pp": {
+            "A great deal of confidence": 6.75,
+            "A fair amount of confidence": -10.01,
+            "Not too much confidence": 2.43,
+            "No confidence at all": 0.83
+          }
+        },
+        {
+          "cell": "religion=catholic",
+          "n_synth": 204,
+          "max_abs_pp_vs_pew_topline": 9.41,
+          "deltas_pp": {
+            "A great deal of confidence": 2.33,
+            "A fair amount of confidence": -9.41,
+            "Not too much confidence": 5.13,
+            "No confidence at all": 1.94
+          }
+        },
+        {
+          "cell": "religion=protestant_mainline",
+          "n_synth": 109,
+          "max_abs_pp_vs_pew_topline": 8.61,
+          "deltas_pp": {
+            "A great deal of confidence": 5.91,
+            "A fair amount of confidence": -8.61,
+            "Not too much confidence": 2.24,
+            "No confidence at all": 0.46
+          }
+        },
+        {
+          "cell": "religion=agnostic",
+          "n_synth": 72,
+          "max_abs_pp_vs_pew_topline": 8.37,
+          "deltas_pp": {
+            "A great deal of confidence": 2.73,
+            "A fair amount of confidence": -8.37,
+            "Not too much confidence": 4.65,
+            "No confidence at all": 1.0
+          }
+        }
+      ],
+      "religiosity": [
+        {
+          "cell": "religiosity=never",
+          "n_synth": 180,
+          "max_abs_pp_vs_pew_topline": 11.54,
+          "deltas_pp": {
+            "A great deal of confidence": -0.22,
+            "A fair amount of confidence": -11.54,
+            "Not too much confidence": 7.97,
+            "No confidence at all": 3.79
+          }
+        },
+        {
+          "cell": "religiosity=rarely",
+          "n_synth": 391,
+          "max_abs_pp_vs_pew_topline": 11.09,
+          "deltas_pp": {
+            "A great deal of confidence": 0.54,
+            "A fair amount of confidence": -11.09,
+            "Not too much confidence": 7.01,
+            "No confidence at all": 3.54
+          }
+        },
+        {
+          "cell": "religiosity=weekly+",
+          "n_synth": 318,
+          "max_abs_pp_vs_pew_topline": 10.6,
+          "deltas_pp": {
+            "A great deal of confidence": 5.87,
+            "A fair amount of confidence": -10.6,
+            "Not too much confidence": 3.1,
+            "No confidence at all": 1.64
+          }
+        },
+        {
+          "cell": "religiosity=monthly",
+          "n_synth": 111,
+          "max_abs_pp_vs_pew_topline": 9.65,
+          "deltas_pp": {
+            "A great deal of confidence": 1.93,
+            "A fair amount of confidence": -9.65,
+            "Not too much confidence": 5.64,
+            "No confidence at all": 2.08
+          }
+        }
+      ],
+      "political_ideology": [
+        {
+          "cell": "political_ideology=very_liberal",
+          "n_synth": 93,
+          "max_abs_pp_vs_pew_topline": 24.08,
+          "deltas_pp": {
+            "A great deal of confidence": -13.37,
+            "A fair amount of confidence": -24.08,
+            "Not too much confidence": 22.0,
+            "No confidence at all": 15.45
+          }
+        },
+        {
+          "cell": "political_ideology=very_conservative",
+          "n_synth": 92,
+          "max_abs_pp_vs_pew_topline": 21.7,
+          "deltas_pp": {
+            "A great deal of confidence": 21.7,
+            "A fair amount of confidence": -10.13,
+            "Not too much confidence": -8.48,
+            "No confidence at all": -3.09
+          }
+        },
+        {
+          "cell": "political_ideology=liberal",
+          "n_synth": 161,
+          "max_abs_pp_vs_pew_topline": 18.92,
+          "deltas_pp": {
+            "A great deal of confidence": -11.44,
+            "A fair amount of confidence": -16.92,
+            "Not too much confidence": 18.92,
+            "No confidence at all": 9.43
+          }
+        },
+        {
+          "cell": "political_ideology=conservative",
+          "n_synth": 291,
+          "max_abs_pp_vs_pew_topline": 15.48,
+          "deltas_pp": {
+            "A great deal of confidence": 15.48,
+            "A fair amount of confidence": -7.01,
+            "Not too much confidence": -5.75,
+            "No confidence at all": -2.72
+          }
+        },
+        {
+          "cell": "political_ideology=moderate",
+          "n_synth": 363,
+          "max_abs_pp_vs_pew_topline": 8.39,
+          "deltas_pp": {
+            "A great deal of confidence": -2.94,
+            "A fair amount of confidence": -7.89,
+            "Not too much confidence": 8.39,
+            "No confidence at all": 2.44
+          }
+        }
+      ],
+      "media_diet_primary": [
+        {
+          "cell": "media_diet_primary=tiktok_news",
+          "n_synth": 25,
+          "max_abs_pp_vs_pew_topline": 15.55,
+          "deltas_pp": {
+            "A great deal of confidence": -7.56,
+            "A fair amount of confidence": -15.55,
+            "Not too much confidence": 15.04,
+            "No confidence at all": 8.06
+          }
+        },
+        {
+          "cell": "media_diet_primary=no_news_consumed",
+          "n_synth": 81,
+          "max_abs_pp_vs_pew_topline": 11.61,
+          "deltas_pp": {
+            "A great deal of confidence": -0.21,
+            "A fair amount of confidence": -11.61,
+            "Not too much confidence": 7.43,
+            "No confidence at all": 4.39
+          }
+        },
+        {
+          "cell": "media_diet_primary=cable_or_broadcast_tv",
+          "n_synth": 295,
+          "max_abs_pp_vs_pew_topline": 11.32,
+          "deltas_pp": {
+            "A great deal of confidence": 4.91,
+            "A fair amount of confidence": -11.32,
+            "Not too much confidence": 3.93,
+            "No confidence at all": 2.47
+          }
+        },
+        {
+          "cell": "media_diet_primary=facebook_feed_news",
+          "n_synth": 85,
+          "max_abs_pp_vs_pew_topline": 10.8,
+          "deltas_pp": {
+            "A great deal of confidence": 3.47,
+            "A fair amount of confidence": -10.8,
+            "Not too much confidence": 4.7,
+            "No confidence at all": 2.63
+          }
+        },
+        {
+          "cell": "media_diet_primary=print_or_legacy_news_sites",
+          "n_synth": 356,
+          "max_abs_pp_vs_pew_topline": 10.5,
+          "deltas_pp": {
+            "A great deal of confidence": 0.14,
+            "A fair amount of confidence": -10.5,
+            "Not too much confidence": 7.38,
+            "No confidence at all": 2.99
+          }
+        },
+        {
+          "cell": "media_diet_primary=x_twitter_news",
+          "n_synth": 20,
+          "max_abs_pp_vs_pew_topline": 9.76,
+          "deltas_pp": {
+            "A great deal of confidence": 6.02,
+            "A fair amount of confidence": -9.76,
+            "Not too much confidence": 2.22,
+            "No confidence at all": 1.52
+          }
+        },
+        {
+          "cell": "media_diet_primary=youtube_news_or_political_creators",
+          "n_synth": 35,
+          "max_abs_pp_vs_pew_topline": 9.68,
+          "deltas_pp": {
+            "A great deal of confidence": 4.73,
+            "A fair amount of confidence": -9.68,
+            "Not too much confidence": 3.21,
+            "No confidence at all": 1.75
+          }
+        },
+        {
+          "cell": "media_diet_primary=podcast_political_or_news",
+          "n_synth": 47,
+          "max_abs_pp_vs_pew_topline": 9.66,
+          "deltas_pp": {
+            "A great deal of confidence": 4.62,
+            "A fair amount of confidence": -9.66,
+            "Not too much confidence": 3.56,
+            "No confidence at all": 1.48
+          }
+        },
+        {
+          "cell": "media_diet_primary=npr_pbs",
+          "n_synth": 48,
+          "max_abs_pp_vs_pew_topline": 8.31,
+          "deltas_pp": {
+            "A great deal of confidence": 3.74,
+            "A fair amount of confidence": -8.31,
+            "Not too much confidence": 4.07,
+            "No confidence at all": 0.51
+          }
+        }
+      ],
+      "media_diet_slant": [
+        {
+          "cell": "media_diet_slant=strong_left",
+          "n_synth": 158,
+          "max_abs_pp_vs_pew_topline": 19.61,
+          "deltas_pp": {
+            "A great deal of confidence": -11.85,
+            "A fair amount of confidence": -19.01,
+            "Not too much confidence": 19.61,
+            "No confidence at all": 11.25
+          }
+        },
+        {
+          "cell": "media_diet_slant=strong_right",
+          "n_synth": 248,
+          "max_abs_pp_vs_pew_topline": 17.18,
+          "deltas_pp": {
+            "A great deal of confidence": 17.18,
+            "A fair amount of confidence": -7.8,
+            "Not too much confidence": -6.53,
+            "No confidence at all": -2.85
+          }
+        },
+        {
+          "cell": "media_diet_slant=lean_left",
+          "n_synth": 315,
+          "max_abs_pp_vs_pew_topline": 13.69,
+          "deltas_pp": {
+            "A great deal of confidence": -7.5,
+            "A fair amount of confidence": -12.2,
+            "Not too much confidence": 13.69,
+            "No confidence at all": 6.0
+          }
+        },
+        {
+          "cell": "media_diet_slant=lean_right",
+          "n_synth": 171,
+          "max_abs_pp_vs_pew_topline": 12.2,
+          "deltas_pp": {
+            "A great deal of confidence": 12.2,
+            "A fair amount of confidence": -6.47,
+            "Not too much confidence": -3.62,
+            "No confidence at all": -2.11
+          }
+        },
+        {
+          "cell": "media_diet_slant=center",
+          "n_synth": 108,
+          "max_abs_pp_vs_pew_topline": 8.9,
+          "deltas_pp": {
+            "A great deal of confidence": 1.19,
+            "A fair amount of confidence": -8.9,
+            "Not too much confidence": 5.7,
+            "No confidence at all": 2.01
+          }
+        }
+      ],
+      "household_composition": [
+        {
+          "cell": "household_composition=single_with_children",
+          "n_synth": 35,
+          "max_abs_pp_vs_pew_topline": 13.38,
+          "deltas_pp": {
+            "A great deal of confidence": 0.15,
+            "A fair amount of confidence": -13.38,
+            "Not too much confidence": 8.06,
+            "No confidence at all": 5.18
+          }
+        },
+        {
+          "cell": "household_composition=group_quarters",
+          "n_synth": 32,
+          "max_abs_pp_vs_pew_topline": 13.06,
+          "deltas_pp": {
+            "A great deal of confidence": 0.39,
+            "A fair amount of confidence": -13.06,
+            "Not too much confidence": 7.87,
+            "No confidence at all": 4.8
+          }
+        },
+        {
+          "cell": "household_composition=multi_generational",
+          "n_synth": 112,
+          "max_abs_pp_vs_pew_topline": 12.03,
+          "deltas_pp": {
+            "A great deal of confidence": -0.32,
+            "A fair amount of confidence": -12.03,
+            "Not too much confidence": 8.32,
+            "No confidence at all": 4.03
+          }
+        },
+        {
+          "cell": "household_composition=partnered_with_children",
+          "n_synth": 196,
+          "max_abs_pp_vs_pew_topline": 11.45,
+          "deltas_pp": {
+            "A great deal of confidence": 0.62,
+            "A fair amount of confidence": -11.45,
+            "Not too much confidence": 7.32,
+            "No confidence at all": 3.5
+          }
+        },
+        {
+          "cell": "household_composition=single_no_children",
+          "n_synth": 258,
+          "max_abs_pp_vs_pew_topline": 11.4,
+          "deltas_pp": {
+            "A great deal of confidence": 1.52,
+            "A fair amount of confidence": -11.4,
+            "Not too much confidence": 6.4,
+            "No confidence at all": 3.48
+          }
+        },
+        {
+          "cell": "household_composition=partnered_no_children",
+          "n_synth": 136,
+          "max_abs_pp_vs_pew_topline": 10.22,
+          "deltas_pp": {
+            "A great deal of confidence": 1.21,
+            "A fair amount of confidence": -10.22,
+            "Not too much confidence": 6.28,
+            "No confidence at all": 2.73
+          }
+        },
+        {
+          "cell": "household_composition=empty_nest_partnered",
+          "n_synth": 231,
+          "max_abs_pp_vs_pew_topline": 8.89,
+          "deltas_pp": {
+            "A great deal of confidence": 6.77,
+            "A fair amount of confidence": -8.89,
+            "Not too much confidence": 1.73,
+            "No confidence at all": 0.39
+          }
+        }
+      ],
+      "life_stage_recent": [
+        {
+          "cell": "life_stage_recent=recent_parent_under_2yr",
+          "n_synth": 19,
+          "max_abs_pp_vs_pew_topline": 13.4,
+          "deltas_pp": {
+            "A great deal of confidence": -4.34,
+            "A fair amount of confidence": -13.4,
+            "Not too much confidence": 12.22,
+            "No confidence at all": 5.52
+          }
+        },
+        {
+          "cell": "life_stage_recent=recently_relocated_metro",
+          "n_synth": 122,
+          "max_abs_pp_vs_pew_topline": 13.22,
+          "deltas_pp": {
+            "A great deal of confidence": -0.82,
+            "A fair amount of confidence": -13.22,
+            "Not too much confidence": 8.65,
+            "No confidence at all": 5.38
+          }
+        },
+        {
+          "cell": "life_stage_recent=no_major_transition",
+          "n_synth": 841,
+          "max_abs_pp_vs_pew_topline": 10.47,
+          "deltas_pp": {
+            "A great deal of confidence": 2.85,
+            "A fair amount of confidence": -10.47,
+            "Not too much confidence": 5.23,
+            "No confidence at all": 2.39
+          }
+        }
+      ],
+      "is_outlier": [
+        {
+          "cell": "is_outlier=False",
+          "n_synth": 930,
+          "max_abs_pp_vs_pew_topline": 11.06,
+          "deltas_pp": {
+            "A great deal of confidence": 2.35,
+            "A fair amount of confidence": -11.06,
+            "Not too much confidence": 5.82,
+            "No confidence at all": 2.89
+          }
+        },
+        {
+          "cell": "is_outlier=True",
+          "n_synth": 70,
+          "max_abs_pp_vs_pew_topline": 8.26,
+          "deltas_pp": {
+            "A great deal of confidence": 1.0,
+            "A fair amount of confidence": -8.26,
+            "Not too much confidence": 5.31,
+            "No confidence at all": 1.96
+          }
+        }
+      ]
+    }
+  },
+  "inspection_worst_cells": {
+    "Q7_covid_school_closures": [
+      {
+        "axis_value": "party=I",
+        "n_synth": 67,
+        "max_abs_pp": 22.46,
+        "pew_dist": {
+          "Too long": 0.15101328160673877,
+          "Not long enough": 0.15257599230199972,
+          "About the right amount of time": 0.37668143583469604,
+          "K-12 public schools in my area were never closed": 0.006494754757266252,
+          "Not sure": 0.31323453549929914
+        },
+        "synth_expected_dist": {
+          "Too long": 0.37565105512503205,
+          "Not long enough": 0.08481576156625782,
+          "About the right amount of time": 0.22504534625949021,
+          "K-12 public schools in my area were never closed": 0.05753048301145782,
+          "Not sure": 0.2569573540377619
+        }
+      },
+      {
+        "axis_value": "race=Black",
+        "n_synth": 108,
+        "max_abs_pp": 22.15,
+        "pew_dist": {
+          "Too long": 0.1359390308044573,
+          "Not long enough": 0.11742507499986342,
+          "About the right amount of time": 0.5058107663872853,
+          "K-12 public schools in my area were never closed": 0.03359889380347213,
+          "Not sure": 0.20722623400492188
+        },
+        "synth_expected_dist": {
+          "Too long": 0.2464780466257809,
+          "Not long enough": 0.13387620229027308,
+          "About the right amount of time": 0.28431296822881835,
+          "K-12 public schools in my area were never closed": 0.05511409748226038,
+          "Not sure": 0.2802186853728672
+        }
+      }
+    ],
+    "Q8_covid_updated_vaccine": [
+      {
+        "axis_value": "party=I",
+        "n_synth": 67,
+        "max_abs_pp": 27.84,
+        "pew_dist": {
+          "Probably get an updated vaccine": 0.1647134687762532,
+          "Probably not get an updated vaccine": 0.7237983376903523,
+          "Have already received an updated vaccine": 0.11148819353339462
+        },
+        "synth_expected_dist": {
+          "Probably get an updated vaccine": 0.26488704381681116,
+          "Probably not get an updated vaccine": 0.44536676841615513,
+          "Have already received an updated vaccine": 0.2897461877670335
+        }
+      },
+      {
+        "axis_value": "age=30-44",
+        "n_synth": 277,
+        "max_abs_pp": 20.6,
+        "pew_dist": {
+          "Probably get an updated vaccine": 0.22772366545955444,
+          "Probably not get an updated vaccine": 0.66855055792015,
+          "Have already received an updated vaccine": 0.10372577662029561
+        },
+        "synth_expected_dist": {
+          "Probably get an updated vaccine": 0.26616884525924905,
+          "Probably not get an updated vaccine": 0.4625504063824721,
+          "Have already received an updated vaccine": 0.27128074835827876
+        }
+      }
+    ],
+    "Q9_astrology_belief": [
+      {
+        "axis_value": "party=I",
+        "n_synth": 67,
+        "max_abs_pp": 20.13,
+        "pew_dist": {
+          "Yes, believe in": 0.37571275651159725,
+          "No, don't believe": 0.6242872434884029
+        },
+        "synth_expected_dist": {
+          "Yes, believe in": 0.17440940785983636,
+          "No, don't believe": 0.8255905921401637
+        }
+      },
+      {
+        "axis_value": "race=Black",
+        "n_synth": 108,
+        "max_abs_pp": 17.03,
+        "pew_dist": {
+          "Yes, believe in": 0.3757241504774447,
+          "No, don't believe": 0.6242758495225553
+        },
+        "synth_expected_dist": {
+          "Yes, believe in": 0.20542998365308454,
+          "No, don't believe": 0.7945700163469154
+        }
+      }
+    ],
+    "Q11_police_confidence": [
+      {
+        "axis_value": "age=45-64",
+        "n_synth": 296,
+        "max_abs_pp": 15.62,
+        "pew_dist": {
+          "A great deal of confidence": 0.2475682536539603,
+          "A fair amount of confidence": 0.5723215652206595,
+          "Not too much confidence": 0.14528284866317773,
+          "No confidence at all": 0.03482733246220246
+        },
+        "synth_expected_dist": {
+          "A great deal of confidence": 0.22741984321508218,
+          "A fair amount of confidence": 0.4161026407893642,
+          "Not too much confidence": 0.265032085852289,
+          "No confidence at all": 0.09144543014326449
+        }
+      },
+      {
+        "axis_value": "age=65+",
+        "n_synth": 213,
+        "max_abs_pp": 14.39,
+        "pew_dist": {
+          "A great deal of confidence": 0.33448405611055015,
+          "A fair amount of confidence": 0.5687215071806769,
+          "Not too much confidence": 0.08578470566598823,
+          "No confidence at all": 0.01100973104278454
+        },
+        "synth_expected_dist": {
+          "A great deal of confidence": 0.2839493290782562,
+          "A fair amount of confidence": 0.4248207447502719,
+          "Not too much confidence": 0.21812254800848538,
+          "No confidence at all": 0.0731073781629871
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "interpretation": "Expected distribution = weighted sum of per-juror probability vectors (the model's latent calibration). Distinct from the SAMPLED distribution that validation_results.json scores. At finite n, sampled outcomes carry hash-sampling noise that expected does not. The breakthrough claim of probvec polling is that the model's latent distribution calibrates to the source survey \u2014 this artifact makes that claim inspectable.",
+  "per_question": [
+    {
+      "question_id": "Q1_climate_personal_impact",
+      "n_synth_valid": 1000,
+      "n_source": 9564,
+      "max_abs_error_pp": 7.47,
+      "synth_entropy_nats": 1.3372,
+      "per_juror_calibration": {
+        "mean_max_p": 0.4299,
+        "median_entropy": 1.2103,
+        "pct_concentrated_gt_0.85": 0.0
+      },
+      "per_option_comparison": [
+        {
+          "option": "A great deal",
+          "synth_expected": 0.1931,
+          "source": 0.2616,
+          "delta_pp": -6.86
+        },
+        {
+          "option": "Some",
+          "synth_expected": 0.3613,
+          "source": 0.3789,
+          "delta_pp": -1.76
+        },
+        {
+          "option": "Not too much",
+          "synth_expected": 0.2845,
+          "source": 0.2098,
+          "delta_pp": 7.47
+        },
+        {
+          "option": "Not at all",
+          "synth_expected": 0.1612,
+          "source": 0.1496,
+          "delta_pp": 1.16
+        }
+      ]
+    },
+    {
+      "question_id": "Q2_climate_human_cause",
+      "n_synth_valid": 1000,
+      "n_source": 9479,
+      "max_abs_error_pp": 3.17,
+      "synth_entropy_nats": 1.2698,
+      "per_juror_calibration": {
+        "mean_max_p": 0.5304,
+        "median_entropy": 1.1902,
+        "pct_concentrated_gt_0.85": 0.085
+      },
+      "per_option_comparison": [
+        {
+          "option": "A great deal",
+          "synth_expected": 0.4226,
+          "source": 0.4543,
+          "delta_pp": -3.17
+        },
+        {
+          "option": "Some",
+          "synth_expected": 0.287,
+          "source": 0.2971,
+          "delta_pp": -1.01
+        },
+        {
+          "option": "Not too much",
+          "synth_expected": 0.1879,
+          "source": 0.1715,
+          "delta_pp": 1.64
+        },
+        {
+          "option": "Not at all",
+          "synth_expected": 0.1024,
+          "source": 0.0771,
+          "delta_pp": 2.54
+        }
+      ]
+    },
+    {
+      "question_id": "Q3_climate_policy_economy",
+      "n_synth_valid": 1000,
+      "n_source": 9439,
+      "max_abs_error_pp": 6.18,
+      "synth_entropy_nats": 1.0798,
+      "per_juror_calibration": {
+        "mean_max_p": 0.594,
+        "median_entropy": 0.9076,
+        "pct_concentrated_gt_0.85": 0.002
+      },
+      "per_option_comparison": [
+        {
+          "option": "Help the U.S. economy",
+          "synth_expected": 0.3522,
+          "source": 0.3412,
+          "delta_pp": 1.1
+        },
+        {
+          "option": "Hurt the U.S. economy",
+          "synth_expected": 0.3999,
+          "source": 0.3492,
+          "delta_pp": 5.07
+        },
+        {
+          "option": "Make no difference for the U.S. economy",
+          "synth_expected": 0.2479,
+          "source": 0.3096,
+          "delta_pp": -6.18
+        }
+      ]
+    },
+    {
+      "question_id": "Q4_scientist_confidence",
+      "n_synth_valid": 1000,
+      "n_source": 4800,
+      "max_abs_error_pp": 8.83,
+      "synth_entropy_nats": 1.2566,
+      "per_juror_calibration": {
+        "mean_max_p": 0.4735,
+        "median_entropy": 1.1816,
+        "pct_concentrated_gt_0.85": 0.0
+      },
+      "per_option_comparison": [
+        {
+          "option": "A great deal of confidence",
+          "synth_expected": 0.1886,
+          "source": 0.2579,
+          "delta_pp": -6.93
+        },
+        {
+          "option": "A fair amount of confidence",
+          "synth_expected": 0.4339,
+          "source": 0.5077,
+          "delta_pp": -7.39
+        },
+        {
+          "option": "Not too much confidence",
+          "synth_expected": 0.2834,
+          "source": 0.1952,
+          "delta_pp": 8.83
+        },
+        {
+          "option": "No confidence at all",
+          "synth_expected": 0.0941,
+          "source": 0.0392,
+          "delta_pp": 5.49
+        }
+      ]
+    },
+    {
+      "question_id": "Q5_scientists_policy_role",
+      "n_synth_valid": 1000,
+      "n_source": 9517,
+      "max_abs_error_pp": 1.77,
+      "synth_entropy_nats": 0.9695,
+      "per_juror_calibration": {
+        "mean_max_p": 0.5384,
+        "median_entropy": 0.913,
+        "pct_concentrated_gt_0.85": 0.0
+      },
+      "per_option_comparison": [
+        {
+          "option": "Usually better at making good policy decisions about scientific issues than other people",
+          "synth_expected": 0.4373,
+          "source": 0.4307,
+          "delta_pp": 0.66
+        },
+        {
+          "option": "Usually worse at making good policy decisions about scientific issues than other people",
+          "synth_expected": 0.1144,
+          "source": 0.1033,
+          "delta_pp": 1.11
+        },
+        {
+          "option": "Neither better nor worse at making good policy decisions about scientific issues than other people",
+          "synth_expected": 0.4483,
+          "source": 0.466,
+          "delta_pp": -1.77
+        }
+      ]
+    },
+    {
+      "question_id": "Q6_covid_restrictions_retro",
+      "n_synth_valid": 1000,
+      "n_source": 9569,
+      "max_abs_error_pp": 4.24,
+      "synth_entropy_nats": 1.0294,
+      "per_juror_calibration": {
+        "mean_max_p": 0.6295,
+        "median_entropy": 0.8831,
+        "pct_concentrated_gt_0.85": 0.065
+      },
+      "per_option_comparison": [
+        {
+          "option": "More restrictions",
+          "synth_expected": 0.1681,
+          "source": 0.1795,
+          "delta_pp": -1.15
+        },
+        {
+          "option": "Fewer restrictions",
+          "synth_expected": 0.4225,
+          "source": 0.38,
+          "delta_pp": 4.24
+        },
+        {
+          "option": "The restrictions were about right",
+          "synth_expected": 0.4095,
+          "source": 0.4404,
+          "delta_pp": -3.1
+        }
+      ]
+    },
+    {
+      "question_id": "Q7_covid_school_closures",
+      "n_synth_valid": 1000,
+      "n_source": 9576,
+      "max_abs_error_pp": 12.42,
+      "synth_entropy_nats": 1.4177,
+      "per_juror_calibration": {
+        "mean_max_p": 0.4829,
+        "median_entropy": 1.3622,
+        "pct_concentrated_gt_0.85": 0.0
+      },
+      "per_option_comparison": [
+        {
+          "option": "Too long",
+          "synth_expected": 0.3996,
+          "source": 0.3504,
+          "delta_pp": 4.92
+        },
+        {
+          "option": "Not long enough",
+          "synth_expected": 0.0877,
+          "source": 0.0897,
+          "delta_pp": -0.2
+        },
+        {
+          "option": "About the right amount of time",
+          "synth_expected": 0.2329,
+          "source": 0.3571,
+          "delta_pp": -12.42
+        },
+        {
+          "option": "K-12 public schools in my area were never closed",
+          "synth_expected": 0.0574,
+          "source": 0.0274,
+          "delta_pp": 3.0
+        },
+        {
+          "option": "Not sure",
+          "synth_expected": 0.2224,
+          "source": 0.1753,
+          "delta_pp": 4.71
+        }
+      ]
+    },
+    {
+      "question_id": "Q8_covid_updated_vaccine",
+      "n_synth_valid": 1000,
+      "n_source": 9528,
+      "max_abs_error_pp": 16.06,
+      "synth_entropy_nats": 1.0708,
+      "per_juror_calibration": {
+        "mean_max_p": 0.5744,
+        "median_entropy": 0.9709,
+        "pct_concentrated_gt_0.85": 0.013
+      },
+      "per_option_comparison": [
+        {
+          "option": "Probably get an updated vaccine",
+          "synth_expected": 0.251,
+          "source": 0.2463,
+          "delta_pp": 0.47
+        },
+        {
+          "option": "Probably not get an updated vaccine",
+          "synth_expected": 0.4408,
+          "source": 0.6014,
+          "delta_pp": -16.06
+        },
+        {
+          "option": "Have already received an updated vaccine",
+          "synth_expected": 0.3082,
+          "source": 0.1524,
+          "delta_pp": 15.59
+        }
+      ]
+    },
+    {
+      "question_id": "Q9_astrology_belief",
+      "n_synth_valid": 1000,
+      "n_source": 9530,
+      "max_abs_error_pp": 12.73,
+      "synth_entropy_nats": 0.416,
+      "per_juror_calibration": {
+        "mean_max_p": 0.8511,
+        "median_entropy": 0.3251,
+        "pct_concentrated_gt_0.85": 0.605
+      },
+      "per_option_comparison": [
+        {
+          "option": "Yes, believe in",
+          "synth_expected": 0.1462,
+          "source": 0.2734,
+          "delta_pp": -12.73
+        },
+        {
+          "option": "No, don't believe",
+          "synth_expected": 0.8538,
+          "source": 0.7266,
+          "delta_pp": 12.73
+        }
+      ]
+    },
+    {
+      "question_id": "Q10_astrology_consult_freq",
+      "n_synth_valid": 1000,
+      "n_source": 9567,
+      "max_abs_error_pp": 8.87,
+      "synth_entropy_nats": 1.0728,
+      "per_juror_calibration": {
+        "mean_max_p": 0.6253,
+        "median_entropy": 1.0389,
+        "pct_concentrated_gt_0.85": 0.03
+      },
+      "per_option_comparison": [
+        {
+          "option": "Daily",
+          "synth_expected": 0.0271,
+          "source": 0.0148,
+          "delta_pp": 1.23
+        },
+        {
+          "option": "At least weekly",
+          "synth_expected": 0.0452,
+          "source": 0.0339,
+          "delta_pp": 1.13
+        },
+        {
+          "option": "Once or twice a month",
+          "synth_expected": 0.0874,
+          "source": 0.0733,
+          "delta_pp": 1.41
+        },
+        {
+          "option": "Once or twice a year",
+          "synth_expected": 0.2131,
+          "source": 0.1622,
+          "delta_pp": 5.09
+        },
+        {
+          "option": "Never",
+          "synth_expected": 0.6272,
+          "source": 0.7159,
+          "delta_pp": -8.87
+        }
+      ]
+    },
+    {
+      "question_id": "Q11_police_confidence",
+      "n_synth_valid": 1000,
+      "n_source": 9581,
+      "max_abs_error_pp": 10.86,
+      "synth_entropy_nats": 1.2777,
+      "per_juror_calibration": {
+        "mean_max_p": 0.4585,
+        "median_entropy": 1.1644,
+        "pct_concentrated_gt_0.85": 0.0
+      },
+      "per_option_comparison": [
+        {
+          "option": "A great deal of confidence",
+          "synth_expected": 0.2285,
+          "source": 0.2061,
+          "delta_pp": 2.25
+        },
+        {
+          "option": "A fair amount of confidence",
+          "synth_expected": 0.4128,
+          "source": 0.5214,
+          "delta_pp": -10.86
+        },
+        {
+          "option": "Not too much confidence",
+          "synth_expected": 0.2636,
+          "source": 0.2057,
+          "delta_pp": 5.79
+        },
+        {
+          "option": "No confidence at all",
+          "synth_expected": 0.0951,
+          "source": 0.0669,
+          "delta_pp": 2.82
+        }
+      ]
+    }
+  ]
+}
