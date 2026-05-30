@@ -7,8 +7,8 @@ Figure list (per docs/writeup-outline.md):
   Fig 1: Within-cell entropy ratio by question across v1/v2/v3 polling protocols
   Fig 2: Stage B threshold breakdown — coverage passes, marginal fails
   Fig 3: Expected-distribution max error vs Pew by question (n=1000)
-  Fig 4: Cross-model + option-order canary — max-abs error per arm
-  Fig 5: Q9 astrology — one-juror reasoning-vs-probability gap
+  Fig 4: Q9 astrology — one-juror reasoning-vs-probability gap
+  Fig 5: Cross-model + option-order canary — max-abs error per arm
 """
 
 from __future__ import annotations
@@ -228,9 +228,9 @@ def fig3_expected_topline_error():
 
 
 # ============================================================
-# Fig 4: 4-arm canary — max-abs error per arm per question
+# Fig 5: 4-arm canary — max-abs error per arm per question
 # ============================================================
-def fig4_crossmodel_canary():
+def fig5_crossmodel_canary():
     cmp_data = json.loads((REPO_ROOT / "out/stage_b/w158_crossmodel_canary_comparison.json").read_text())
     qids = list(cmp_data["headline_per_question"].keys())
     arms = ["baseline", "sonnet_fwd_n200", "sonnet_rev_n200", "opus_fwd_n200", "opus_rev_n200"]
@@ -261,15 +261,15 @@ def fig4_crossmodel_canary():
         for q in qids for a in arms
     )) * 1.18)
     ax.grid(axis="y", alpha=0.3)
-    plt.savefig(FIG_DIR / "fig4_crossmodel_canary.png")
+    plt.savefig(FIG_DIR / "fig5_crossmodel_canary.png")
     plt.close()
-    print(f"wrote {FIG_DIR / 'fig4_crossmodel_canary.png'}")
+    print(f"wrote {FIG_DIR / 'fig5_crossmodel_canary.png'}")
 
 
 # ============================================================
-# Fig 5: Q9 astrology — one juror's reasoning-vs-probability gap
+# Fig 4: Q9 astrology — one juror's reasoning-vs-probability gap
 # ============================================================
-def fig5_q9_reasoning_gap():
+def fig4_q9_reasoning_gap():
     msa = json.loads((REPO_ROOT / "out/stage_b/W158_n1000_probvec_20260516_v1/marginal_shift_analysis.json").read_text())
     q9 = msa["inspection_worst_cells"]["Q9_astrology_belief"]
     # Pick juror 2179219 from the race=Black cell. The cell-level structural
@@ -392,9 +392,9 @@ def fig5_q9_reasoning_gap():
         ax2.text(0, 0.38 - i * 0.038, line, fontsize=10.5, color="#222222",
                  transform=ax2.transAxes, verticalalignment="top")
 
-    plt.savefig(FIG_DIR / "fig5_q9_reasoning_gap.png")
+    plt.savefig(FIG_DIR / "fig4_q9_reasoning_gap.png")
     plt.close()
-    print(f"wrote {FIG_DIR / 'fig5_q9_reasoning_gap.png'}")
+    print(f"wrote {FIG_DIR / 'fig4_q9_reasoning_gap.png'}")
 
 
 # ============================================================
@@ -528,8 +528,8 @@ def main():
     fig1_entropy_recovery()
     fig2_threshold_breakdown()
     fig3_expected_topline_error()
-    fig4_crossmodel_canary()
-    fig5_q9_reasoning_gap()
+    fig4_q9_reasoning_gap()
+    fig5_crossmodel_canary()
     fig6_regression_coefficient_comparison()
     print(f"\nAll 6 figures written to {FIG_DIR}")
 
