@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this methods package, please cite it as below."
 title: "The Jury Methods Package: Synthetic Survey Respondents on Pew ATP Wave 158"
 type: software
-version: "1.0.0"
-date-released: "2026-05-21"
+version: "1.0.1"
+date-released: "2026-05-29"
 url: "https://corman.io/writing/the-jury/"
 repository-code: "https://github.com/zzirblake/the-jury-public"
 authors:

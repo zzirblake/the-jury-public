@@ -1,0 +1,23 @@
+{
+  "title": "The Jury Methods Package: Synthetic Survey Respondents on Pew ATP Wave 158",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.1",
+  "publication_date": "2026-05-29",
+  "creators": [
+    {
+      "name": "Corman, Blake",
+      "orcid": "0009-0007-7656-0695"
+    }
+  ],
+  "description": "A public-safe methods package for a 1,000-juror synthetic respondent panel benchmarked against Pew American Trends Panel Wave 158. The artifact documents that probability-vector polling substantially mitigates within-cell variance compression on 10 of 11 questions, while overall validation still fails through topic-specific marginal error (most clearly COVID-19 vaccine refusal and astrology belief). Code is licensed MIT (LICENSE-CODE); documentation and figures are licensed CC-BY-4.0 (LICENSE-DOCS). Raw survey and synthetic row-level data are not redistributed; see DATA_NOT_INCLUDED.md for the reconstruction path.",
+  "keywords": [
+    "synthetic respondents",
+    "survey methodology",
+    "large language models",
+    "public opinion",
+    "probability-vector polling",
+    "distributional alignment"
+  ]
+}
